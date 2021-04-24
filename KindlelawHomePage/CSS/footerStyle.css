@@ -1,0 +1,23 @@
+.zuihouhezi {
+	position: absolute;
+	top: 4494px;
+	width: 1920px;
+	height: 69px;
+	background: #F8F9FA;
+}
+
+.weizi {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -152px;
+	margin-top: -10px;
+	width: 304px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #666666;
+	line-height: 20px;
+	cursor: default;
+}

@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.bg {
+	position: relative;
+	width: 1920px;
+	height: 4563px;
+	background: linear-gradient(180deg, #eef2fc 0%, #ffffff 100%);
+}
+
+.nav {
+	position: relative;
+	width: 1920px;
+	height: 88px;
+	background: rgba(248, 248, 254, 0);
+}
+
+.logo {
+	position: absolute;
+	left: 200px;
+	top: 24px;
+}
+
+.dian {
+	position: absolute;
+	left: 382px;
+	top: 43px;
+	width: 2px;
+	height: 2px;
+	background: #4585FE;
+	border-radius: 1px;
+}
+
+.wenzi1 {
+	position: absolute;
+	left: 404px;
+	top: 32px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #4585FE;
+	width: 144px;
+	height: 24px;
+	font-size: 24px;
+	line-height: 24px;
+	cursor: default;
+}
+
+.shouye,
+.xiazai,
+.bangzhu,
+.guanyu {
+	position: absolute;
+	width: 78px;
+	height: 40px;
+	background: rgba(216, 216, 216, 0);
+}
+
+a {
+	text-decoration: none;
+}
+
+.wenzi2,
+.wenzi3 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -11px;
+	margin-left: -16px;
+}
+
+.wenzi4,
+.wenzi5 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -11px;
+	margin-left: -32px;
+}
+
+.shouye {
+	left: 666px;
+	top: 24px;
+}
+
+.wenzi2 a {
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #4585FE;
+	width: 32px;
+	height: 22px;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.xiazai {
+	left: 778px;
+	top: 24px;
+}
+
+.wenzi3 a {
+	width: 32px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+.wenzi3 a:hover {
+	color: #4585FE;
+}
+
+.bangzhu {
+	left: 906px;
+	top: 24px;
+}
+
+.wenzi4 a {
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+.wenzi4 a:hover {
+	color: #4585FE;
+	
+}
+.guanyu {
+	left: 1050px;
+	top: 24px;
+}
+
+.wenzi5 a {
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+.wenzi5 a:hover {
+	color: #4585FE;
+}
+.xiaojuxing {
+	position: absolute;
+	left: 685px;
+	top: 69px;
+	bottom: 16px;
+	width: 40px;
+	height: 3px;
+	background: #4585FE;
+	border-radius: 2px;
+}
+
+.denglu {
+	position: absolute;
+	left: 1482px;
+	top: 27px;
+	bottom: 27px;
+	width: 78px;
+	height: 34px;
+	border-radius: 6px;
+	border: 1px solid #4585FE;
+	outline: none;
+}
+
+.anniu1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -11px;
+	margin-left: -16px;
+	width: 32px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #4585FE;
+	line-height: 22px;
+}
+
+.shiyong {
+	position: absolute;
+	left: 1590px;
+	top: 27px;
+	width: 130px;
+	height: 34px;
+	background: #4585FE;
+	border-radius: 6px;
+	outline: none;
+}
+
+.anniu2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -11px;
+	margin-left: -45px;
+	width: 90px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 22px;
+}

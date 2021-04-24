@@ -1,0 +1,127 @@
+.bar-nav {
+	width: 1920px;
+	height: 121px;
+	margin: 0 auto;
+}
+
+.nav-box {
+	float: left;
+	margin-left: 360px;
+	margin-top: 19px;
+	width: 192px;
+	height: 91px;
+}
+
+.nav-home-box {
+	float: left;
+	margin-left: 116.1px;
+	margin-top: 19px;
+	width: 50px;
+	height: 50px;
+	background: #0058AA;
+	border-radius: 25px;
+}
+
+.nav-home-box a img {
+	margin-top: 9px;
+	margin-left: 8px;
+}
+
+/* 网站首页 */
+.nav-page a {
+	float: left;
+	margin-top: 89px;
+	margin-left: -55px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #545454;
+}
+
+.nav-page a:hover {
+	color: #0058AA;
+	font-weight: bold;
+}
+
+.nav-about a:hover {
+	color: #0058AA;
+	font-weight: bold;
+}
+
+.nav-service a:hover {
+	color: #0058AA;
+	font-weight: bold;
+}
+
+.nav-product a:hover {
+	color: #0058AA;
+	font-weight: bold;
+}
+
+.nav-hall a:hover {
+	color: #0058AA;
+	font-weight: bold;
+}
+
+.nav-abouts a img {
+	float: left;
+	padding-left: 83.4px;
+	padding-top: 27.8px;
+}
+
+/* 链接 */
+.nav-about a,
+.nav-service a,
+.nav-product a,
+.nav-hall a {
+	float: left;
+	margin-top: 89px;
+	margin-left: -50px;
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #545454;
+}
+
+.nav-kefu img {
+	float: left;
+	padding-left: 91px;
+	padding-top: 27.8px;
+}
+
+.nav-chanpin img {
+	float: left;
+	padding-left: 90px;
+	padding-top: 27.8px;
+}
+
+.nav-fuwu img {
+	float: left;
+	padding-left: 92px;
+	padding-top: 27.8px;
+}
+
+.nav-input input {
+	float: left;
+	margin-left: 77.5px;
+	margin-top: 51px;
+	display: block;
+	width: 229px;
+	height: 37px;
+	text-indent: 15px;
+	outline: none;
+}
+
+.nav-search a {
+	float: left;
+	margin-left: 0;
+	margin-top: 51px;
+	width: 48px;
+	height: 37px;
+	background: #0058AA;
+}
+
+.nav-search a img {
+	width: 33px;
+	height: 33px;
+	margin-top: 3px;
+	margin-left: 8px;
+}

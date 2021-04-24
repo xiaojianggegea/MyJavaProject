@@ -1,0 +1,75 @@
+.fresh-box {
+	height: 738px;
+	background: #F7F7F7;
+}
+
+.content-part img {
+	transition: transform .4s ease 0s;
+}
+
+.content-part img:hover {
+	transform: scale(1.1);
+}
+
+.content-part li {
+	overflow: hidden;
+}
+
+.content-part li .box-img {
+	height: 184px;
+	overflow: hidden;
+}
+
+.fresh-box .center-box5 .fresh-box-header {
+	margin-bottom: 32px;
+	cursor: default;
+}
+
+.fresh-box .center-box5 .fresh-box-header h2 {
+	float: left;
+	margin-top: 40px;
+	margin-right: 12px;
+	font-family: PingFangSC-Medium;
+	font-size: 36px;
+	color: #1C1F21;
+	text-align: justify;
+	line-height: 54px;
+}
+
+.fresh-box .center-box5 .fresh-box-header em {
+	float: left;
+	margin-top: 67px;
+	font-family: PingFangSCRegular;
+	font-size: 12px;
+	color: #1C1F21;
+	text-align: justify;
+	line-height: 18px;
+}
+
+.fresh-box .center-box5 ul li {
+	float: left;
+	margin-right: 32px;
+	margin-bottom: 32px;
+	width: 264px;
+	height: 270px;
+	background: #FFFFFF;
+	transition: box-shadow .2s ease 0s;
+}
+
+.fresh-box .center-box5 ul li:hover {
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+.fresh-box .center-box5 ul li:nth-child(4n) {
+	margin-right: 0;
+}
+
+.fresh-box .center-box5 ul li a p {
+	float: left;
+	margin-left: 14px;
+	margin-top: 20px;
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #1C1F21;
+	line-height: 22px;
+}

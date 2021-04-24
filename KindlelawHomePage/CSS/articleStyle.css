@@ -1,0 +1,1143 @@
+/* 内容 */
+.article {
+	position: relative;
+	top: 38px;
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	width: 1920px;
+	height: 3552px;
+}
+
+.biaoti {
+	position: absolute;
+	left: 626px;
+	top: 50px;
+	width: 668px;
+	height: 67px;
+	font-size: 48px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 67px;
+	cursor: default;
+}
+
+.fubiaoti {
+	position: absolute;
+	left: 492px;
+	top: 157px;
+	width: 936px;
+	height: 90px;
+	font-size: 20px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	line-height: 45px;
+	cursor: default;
+}
+
+.shiyong2 {
+	position: absolute;
+	left: 846px;
+	top: 287px;
+	width: 228px;
+	height: 64px;
+	background: #4585FE;
+	border-radius: 6px;
+}
+
+.annui3 {
+	position: absolute;
+	left: 35px;
+	top: 16px;
+	width: 158px;
+	height: 33px;
+	font-size: 24px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 33px;
+}
+
+.tupian {
+	position: absolute;
+	left: 462px;
+	top: 439px;
+	width: 996px;
+	height: 581px;
+	z-index: 1;
+}
+
+.tupian1 {
+	position: absolute;
+	left: -105px;
+	top: 154px;
+	width: 272px;
+	height: 489px;
+	z-index: 2;
+}
+
+.tupian2 {
+	position: absolute;
+	left: 497px;
+	top: 93px;
+	width: 610px;
+	height: 78px;
+	z-index: 2;
+}
+
+.tupian3 {
+	position: absolute;
+	left: 692px;
+	top: 211px;
+	width: 380px;
+	height: 316px;
+	z-index: 2;
+}
+
+.xiaotubiao {
+	position: absolute;
+	left: 1574px;
+	top: 1051px;
+	width: 70px;
+	height: 70px;
+	background: #4585FE;
+	box-shadow: 0px 4px 16px 0px #C6DAF0;
+	border-radius: 6px;
+}
+
+.chanpin {
+	position: absolute;
+	left: 496px;
+	top: 1149px;
+	width: 929px;
+	height: 100px;
+	cursor: default;
+}
+
+.chanpin .zi {
+	width: 929px;
+	height: 100px;
+	font-size: 72px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: rgba(235, 243, 252, 0.5);
+	line-height: 100px;
+}
+
+.chanpin .zi1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	width: 144px;
+	height: 50px;
+	font-size: 36px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 50px;
+}
+
+.biao1 {
+	position: absolute;
+	left: 331px;
+	top: 15px;
+}
+
+.biao2 {
+	position: absolute;
+	right: 331px;
+	top: 15px;
+}
+
+.chanpin .zi2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	top: 60px;
+}
+
+/* 工具 */
+.xuanxiang1 {
+	position: absolute;
+	left: 553px;
+	top: 1337px;
+	width: 66px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #4585FE;
+	line-height: 40px;
+}
+
+/* 业务 */
+.xuanxiang2 {
+	position: absolute;
+	left: 932px;
+	top: 1337px;
+	width: 56px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 40px;
+}
+
+/* 律所管理 */
+.xuanxiang3 {
+	position: absolute;
+	left: 1274px;
+	top: 1337px;
+	width: 112px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 40px;
+}
+
+.xuanxiang4 {
+	position: absolute;
+	left: 546px;
+	top: 1387px;
+	width: 80px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #4585FE;
+	line-height: 22px;
+	cursor: default;
+}
+
+.xuanxiang5 {
+	position: absolute;
+	left: 883px;
+	top: 1387px;
+	width: 156px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+	cursor: default;
+}
+
+.xuanxiang6 {
+	position: absolute;
+	left: 1266px;
+	top: 1387px;
+	width: 128px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+	cursor: default;
+}
+
+/* 选中下划线 */
+.juxing1 {
+	position: absolute;
+	left: 502px;
+	top: 1420px;
+	width: 170px;
+	height: 3px;
+	background: #4585FE;
+	border-radius: 2px;
+}
+
+.xiahuaxian {
+	position: absolute;
+	left: 360px;
+	top: 1421px;
+	width: 1200px;
+	height: 1px;
+	background: #E1E6F0;
+	border-radius: 1px;
+}
+
+/* 大数据图 */
+.tu1 {
+	position: absolute;
+	left: 338px;
+	top: 1463px;
+}
+
+/* 大数据检索 */
+.dashuju {
+	position: absolute;
+	left: 1010px;
+	top: 1501px;
+	width: 478px;
+	height: 27px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 27px;
+	cursor: default;
+}
+
+.xian {
+	position: absolute;
+	left: 1010px;
+	top: 1558px;
+	width: 550px;
+	height: 1px;
+	background: #EBF0FC;
+	border-radius: 1px;
+}
+
+ul .li1 {
+	position: absolute;
+	left: 1033px;
+	top: 1590px;
+	width: 478px;
+	height: 27px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 27px;
+	cursor: default;
+}
+
+ul .li1::marker {
+	color: #4585FE;
+}
+
+ul .li2 {
+	position: absolute;
+	left: 1033px;
+	top: 1647px;
+	width: 478px;
+	height: 27px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 27px;
+	cursor: default;
+}
+
+ul .li2::marker {
+	color: #4585FE;
+}
+
+ul .li3 {
+	position: absolute;
+	left: 1033px;
+	top: 1704px;
+	width: 478px;
+	height: 27px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 27px;
+	cursor: default;
+}
+
+ul .li3::marker {
+	color: #4585FE;
+}
+
+ul .li4 {
+	position: absolute;
+	left: 1033px;
+	top: 1761px;
+	width: 478px;
+	height: 27px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 27px;
+	cursor: default;
+}
+
+ul .li4::marker {
+	color: #4585FE;
+}
+
+/* 产品购买 */
+.chanpin1 {
+	position: absolute;
+	left: 496px;
+	top: 1957px;
+	width: 929px;
+	height: 100px;
+	cursor: default;
+}
+
+.chanpin1 .zi {
+	width: 929px;
+	height: 100px;
+	font-size: 72px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	color: rgba(235, 243, 252, 0.5);
+	line-height: 100px;
+}
+
+.chanpin1 .zi1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	width: 144px;
+	height: 50px;
+	font-size: 36px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 50px;
+}
+
+.biao1 {
+	position: absolute;
+	left: 331px;
+	top: 15px;
+}
+
+.biao2 {
+	position: absolute;
+	right: 331px;
+	top: 15px;
+}
+
+.chanpin1 .zi2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	top: 60px;
+}
+
+/* 选价区方框 */
+.fankuan1,
+.fankuan2,
+.fankuan3,
+.fankuan4 {
+	position: absolute;
+	top: 2138px;
+	width: 282px;
+	height: 386px;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 20px 2px #F4F4F8;
+	border-radius: 10px;
+	cursor: default;
+}
+
+.fankuan1 {
+	left: 360px;
+}
+
+.fankuan2 {
+	left: 666px;
+}
+
+.fankuan2::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #4585FE url(../images/微信扫一扫.png) no-repeat 56px 63px;
+	box-shadow: 0px 2px 20px 2px #F4F4F8;
+	border-radius: 10px;
+	display: none;
+}
+
+.fankuan2:hover::after {
+	display: block;
+}
+.fankuan3 {
+	left: 972px;
+}
+.fankuan3::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #4585FE url(../images/微信扫一扫.png) no-repeat 56px 63px;
+	box-shadow: 0px 2px 20px 2px #F4F4F8;
+	border-radius: 10px;
+	display: none;
+}
+
+.fankuan3:hover::after {
+	display: block;
+}
+.fankuan4 {
+	left: 1278px;
+}
+
+.fankuan4::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #4585FE url(../images/微信扫一扫.png) no-repeat 56px 63px;
+	box-shadow: 0px 2px 20px 2px #F4F4F8;
+	border-radius: 10px;
+	display: none;
+}
+
+.fankuan4:hover::after {
+	display: block;
+}
+
+.tiaoxing {
+	position: absolute;
+	top: -8px;
+}
+
+/* 分价标题 */
+.geren,
+.shiren,
+.ershi,
+.sanshi {
+	position: absolute;
+	left: 32px;
+	top: 38px;
+}
+
+.geren {
+	width: 88px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #333333;
+	line-height: 40px;
+}
+
+.shiren {
+	width: 145px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #333333;
+	line-height: 40px;
+}
+
+.ershi {
+	width: 148px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #333333;
+	line-height: 40px;
+}
+
+.sanshi {
+	width: 148px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #333333;
+	line-height: 40px;
+}
+
+/* 细线 */
+.xixian1,
+.xixian2 {
+	position: absolute;
+	left: 32px;
+	width: 218px;
+	height: 1px;
+	background: #EBF0FD;
+	border-radius: 1px;
+}
+
+.xixian1 {
+	top: 98px;
+}
+
+.xixian2 {
+	top: 223px;
+}
+
+.jiagemiaoshu1,
+.jiagemiaoshu2 {
+	position: absolute;
+	left: 32px;
+}
+
+.jiagemiaoshu1 {
+	top: 117px;
+	width: 160px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #666666;
+	line-height: 28px;
+}
+
+.jiagemiaoshu2 {
+	top: 165px;
+	width: 125px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #666666;
+	line-height: 28px;
+}
+
+/* 价格 */
+.fuhao {
+	position: absolute;
+	left: 32px;
+	top: 267px;
+	width: 12px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #E93F37;
+	line-height: 28px;
+}
+
+/* 整数部分 */
+.zhengshu {
+	position: absolute;
+	left: 44px;
+	top: 247px;
+	width: 69px;
+	height: 54px;
+	font-size: 42px;
+	font-family: DINPro-Bold, DINPro;
+	font-weight: bold;
+	color: #E93F37;
+	line-height: 54px;
+}
+
+/* 小数部分 */
+.xiaoshu {
+	position: absolute;
+	left: 120px;
+	top: 268px;
+	width: 28px;
+	height: 26px;
+	font-size: 20px;
+	font-family: DINPro-Bold, DINPro;
+	font-weight: bold;
+	color: #E93F37;
+	line-height: 26px;
+}
+
+/* 单位 */
+.danwei {
+	position: absolute;
+	left: 155px;
+	top: 270px;
+	width: 40px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+/* 85整数部分 */
+.zhengshu1 {
+	position: absolute;
+	left: 50px;
+	top: 247px;
+	width: 46px;
+	height: 54px;
+	font-size: 42px;
+	font-family: DINPro-Bold, DINPro;
+	font-weight: bold;
+	color: #E93F37;
+	line-height: 54px;
+
+}
+
+/* 85小数部分 */
+.xiaoshu1 {
+	position: absolute;
+	left: 100px;
+	top: 268px;
+	width: 28px;
+	height: 26px;
+	font-size: 20px;
+	font-family: DINPro-Bold, DINPro;
+	font-weight: bold;
+	color: #E93F37;
+	line-height: 26px;
+}
+
+/* 单位 */
+.danwei1 {
+	position: absolute;
+	left: 135px;
+	top: 271px;
+	width: 40px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+/* 购买按钮 */
+.goumai {
+	position: absolute;
+	left: 32px;
+	top: 320px;
+	width: 218px;
+	height: 42px;
+	background: #4585FE;
+	border-radius: 6px;
+}
+
+.liji {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -32px;
+	margin-top: -11px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 22px;
+
+}
+
+.goumai1 {
+	position: absolute;
+	left: 32px;
+	top: 320px;
+	width: 218px;
+	height: 42px;
+	border-radius: 6px;
+	border: 1px solid #4585FE;
+}
+
+.zixun {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -11px;
+	margin-left: -32px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #4585FE;
+	line-height: 22px;
+
+}
+
+/* 成功案例 */
+.chanpin2 {
+	position: absolute;
+	left: 496px;
+	top: 2652px;
+	width: 929px;
+	height: 100px;
+	cursor: default;
+}
+
+.chanpin2 .zi {
+	position: absolute;
+	width: 929px;
+	height: 100px;
+	font-size: 72px;
+	font-family: PingFangSC-Semibold, PingFang SC;
+	font-weight: 600;
+	text-align: center;
+	color: rgba(235, 243, 252, 0.5);
+	line-height: 100px;
+}
+
+.chanpin2 .zi1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	width: 144px;
+	height: 50px;
+	font-size: 36px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 50px;
+}
+
+.biao1 {
+	position: absolute;
+	left: 331px;
+	top: 15px;
+}
+
+.biao2 {
+	position: absolute;
+	right: 331px;
+	top: 15px;
+}
+
+.chanpin2 .zi2 {
+	position: absolute;
+	left: 50%;
+	margin-left: -72px;
+	top: 60px;
+}
+
+/* 引号 */
+.yinhao {
+	position: absolute;
+	left: 360px;
+	top: 2866px;
+}
+
+.lvshi {
+	position: absolute;
+	left: 450px;
+	top: 2908px;
+	width: 324px;
+	height: 50px;
+	font-size: 36px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 50px;
+	cursor: default;
+}
+
+/* 线条 */
+.xiantiao {
+	position: absolute;
+	left: 450px;
+	top: 2978px;
+	width: 72px;
+	height: 6px;
+	background: #4585FE;
+	border-radius: 3px;
+}
+
+.miaoshu1 {
+	position: absolute;
+	left: 450px;
+	top: 3024px;
+	width: 580px;
+	height: 96px;
+	font-size: 28px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 48px;
+	cursor: default;
+}
+
+.miaoshu2 {
+	position: absolute;
+	left: 450px;
+	top: 3160px;
+	width: 580px;
+	height: 81px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 27px;
+	cursor: default;
+}
+
+.miaoshu3 {
+	position: absolute;
+	left: 802px;
+	top: 3291px;
+	width: 228px;
+	height: 27px;
+	font-size: 18px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 27px;
+	cursor: default;
+}
+
+.zuojiantou {
+	position: absolute;
+	left: 449px;
+	top: 3402px;
+}
+
+.youjiantou {
+	position: absolute;
+	left: 503px;
+	top: 3402px;
+}
+
+.tp {
+	position: absolute;
+	left: 1130px;
+	top: 2840px;
+}
+
+/* 开启数字化律所盒子 */
+.xiabox {
+	position: absolute;
+	top: 3552px;
+	width: 1920px;
+	height: 383px;
+	background: #EFF5FC;
+	cursor: default;
+}
+
+.kaiqi {
+	position: absolute;
+	left: 720px;
+	top: 109px;
+	width: 480px;
+	height: 67px;
+	font-size: 48px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #4585FE;
+	line-height: 67px;
+}
+
+.annui4 {
+	position: absolute;
+	left: 846px;
+	top: 224px;
+	width: 228px;
+	height: 64px;
+	background: #4585FE;
+	border-radius: 6px;
+}
+
+.mianfei {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -20px;
+	margin-left: -79px;
+	width: 158px;
+	height: 40px;
+	font-size: 28px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+.logo1 {
+	position: absolute;
+	left: 360px;
+	top: 4068px;
+}
+
+.lianxi {
+	position: absolute;
+	left: 360px;
+	top: 4144px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+	cursor: default;
+}
+
+.shijian1 {
+	position: absolute;
+	left: 360px;
+	top: 4196px;
+	width: 137px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+	cursor: default;
+}
+
+.shijian2 {
+	position: absolute;
+	left: 360px;
+	top: 4248px;
+	width: 168px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+	cursor: default;
+}
+
+/* 支持 */
+.zhichi {
+	position: absolute;
+	left: 702px;
+	top: 4080px;
+	width: 40px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 28px;
+	cursor: default;
+}
+
+.xiazai1 {
+	position: absolute;
+	left: 702px;
+	top: 4144px;
+	width: 32px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+.shipin {
+	position: absolute;
+	left: 702px;
+	top: 4196px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+.changjian {
+	position: absolute;
+	left: 702px;
+	top: 4248px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+/* 产品 */
+.cp {
+	position: absolute;
+	left: 852px;
+	top: 4080px;
+	width: 40px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 28px;
+	cursor: default;
+}
+
+.ketang {
+	position: absolute;
+	left: 852px;
+	top: 4144px;
+	width: 48px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+}
+
+/* 公司 */
+.gongsi {
+	position: absolute;
+	left: 1002px;
+	top: 4080px;
+	width: 40px;
+	height: 28px;
+	font-size: 20px;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #000000;
+	line-height: 28px;
+	cursor: default;
+}
+
+.guanyu1 {
+	position: absolute;
+	left: 1002px;
+	top: 4144px;
+	width: 64px;
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 22px;
+
+}
+
+/* 二维码 */
+.xiazaiapp1 {
+	position: absolute;
+	left: 1206px;
+	top: 4080px;
+}
+
+.xiazaiapp2 {
+	position: absolute;
+	left: 1218px;
+	top: 4249px;
+	width: 127px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 20px;
+	cursor: default;
+}
+
+.guanzhu1 {
+	position: absolute;
+	left: 1404px;
+	top: 4080px;
+}
+
+.guanzhu2 {
+	position: absolute;
+	left: 1408px;
+	top: 4249px;
+	width: 142px;
+	height: 20px;
+	font-size: 14px;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	line-height: 20px;
+	cursor: default;
+}
