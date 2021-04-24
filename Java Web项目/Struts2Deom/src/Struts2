@@ -1,0 +1,15 @@
+Struts2
+1、Struts2是一种基于MVC模式的轻量级Web框架。
+2、Struts2执行流程：
+（1）客户端发送一个请求。
+（2）程序会调用Struts2核心过滤器，然后询问动作映射器（ActionMapper）这个请求是否调用某个action。
+（3）如果动作映射器（ActionMapper）需要调用某个action，则Struts2核心过滤器会把这个请求的处理交给
+动作代理（ActionProxy）。
+（4）动作代理（ActionProxy）通过配置管理器从配置文件中读取框架的配置信息，从而找到需要调用的action。
+（5）动作代理（ActionProxy）会创建一个动作调用（ActionInvocation）的实咧。
+（6）动作调用（ActionInvocation）使用命名模式来调用action，在调用action前。会依次调用所有的配置拦截器。
+（7）一旦action执行完，返回结果字符串，动作调用（ActionInvocation）就会负责查找结果字符串
+对应的Result，然后执行这个Result。通常会调用一些JSP等来呈现的页面。
+（8）产生的Result信息返回给动作调用（ActionInvocation），
+此过程拦截器会被再次执行（执行顺序与执行action之前相反）。
+（9）产生一个响应行为，通过Struts2核心过滤器反馈给客户端。
