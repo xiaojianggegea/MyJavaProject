@@ -11,11 +11,5 @@
         <module name="env-gather-interface" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="env-gather" target="1.8" />
-      <module name="env-gather-entity" target="1.8" />
-      <module name="env-gather-impl" target="1.8" />
-      <module name="env-gather-interface" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
