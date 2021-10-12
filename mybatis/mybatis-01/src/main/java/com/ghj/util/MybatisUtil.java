@@ -1,4 +1,4 @@
-package com.ghj.mydb.util;
+package com.ghj.util;
 
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
