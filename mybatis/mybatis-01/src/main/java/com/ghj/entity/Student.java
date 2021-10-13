@@ -1,6 +1,6 @@
 package com.ghj.entity;
 
-import java.sql.Date;
+import java.util.Date;
 
 /**
  * @program: mybatis

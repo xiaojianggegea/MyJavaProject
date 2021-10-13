@@ -10,6 +10,8 @@ import java.util.List;
  * @author: 小江
  * @create: 2021-10-12 16:42
  **/
-public interface StudentDao {
-    List<Student> getStudentList();
+public interface StudentMapper {
+    List<Student> findAllStudents();
+    Student findStudentById(int id);
+    int insertStudent(Student student);
 }
