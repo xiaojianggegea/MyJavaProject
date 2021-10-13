@@ -3,14 +3,14 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ghj.dao.StudentMapper">
 <!--    查询全部信息-->
-    <select id="findAllStudents" resultType="com.ghj.entity.Student">
+    <select id="findAllStudents" resultType="Student">
         SELECT * FROM STUDENTS
     </select>
 <!--    指定ID查询-->
-    <select id="findStudentById" parameterType="int" resultType="com.ghj.entity.Student">
+    <select id="findStudentById" parameterType="int" resultType="Student">
         SELECT * FROM STUDENTS WHERE ID=#{Id}
     </select>
-    <insert id="insertStudent" parameterType="com.ghj.entity.Student">
+    <insert id="insertStudent" parameterType="Student">
         INSERT INTO STUDENTS(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
     </insert>
 </mapper>
