@@ -5,7 +5,7 @@
   Time: 16:53
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <title>文件下载</title>
@@ -27,8 +27,10 @@
 <a href="download/test.txt" download>文本文件</a>
 <a href="download/郭怀江.png" download="郭怀江.png">图片文件</a>
 <hr>
-<form action="downloadServlet">
-    文件名：<input type="text" name="fileName" placeholder="请输入要下载的文件名">
+<form action="${pageContext.request.contextPath}/downloadServlet">
+    文件名：<label>
+    <input type="text" name="fileName" placeholder="请输入要下载的文件名">
+</label>
     <button>下载</button>
 </form>
 

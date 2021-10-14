@@ -24,19 +24,19 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.2</version>
-				<configuration>
-					<!-- 设置web项目的根目录为/ -->
-					<path>/</path>
-					<!-- 设置web项目的端口号为8989 -->
-					<port>8989</port>
-					<!-- 设置编码为UTF-8 -->
-					<uriEncoding>UTF-8</uriEncoding>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				<groupId>org.apache.tomcat.maven</groupId>-->
+<!--				<artifactId>tomcat7-maven-plugin</artifactId>-->
+<!--				<version>2.2</version>-->
+<!--				<configuration>-->
+<!--					&lt;!&ndash; 设置web项目的根目录为/ &ndash;&gt;-->
+<!--					<path>/</path>-->
+<!--					&lt;!&ndash; 设置web项目的端口号为8989 &ndash;&gt;-->
+<!--					<port>8989</port>-->
+<!--					&lt;!&ndash; 设置编码为UTF-8 &ndash;&gt;-->
+<!--					<uriEncoding>UTF-8</uriEncoding>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 	</build>
 </project>

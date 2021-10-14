@@ -5,12 +5,13 @@
   Time: 15:00
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" %>
 <html>
   <head>
     <title>文件上传</title>
   </head>
   <body>
-  Servlet的文件上传·
+  <a href="upload.jsp">上传文件</a>
+  <a href="download.jsp">下载文件</a>
   </body>
 </html>

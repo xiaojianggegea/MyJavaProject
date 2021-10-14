@@ -11,6 +11,7 @@
     <title>文件上传</title>
   </head>
   <body>
-  Servlet的文件上传·
+  <a href="upload.jsp">上传文件</a>
+  <a href="download.jsp">下载文件</a>
   </body>
 </html>

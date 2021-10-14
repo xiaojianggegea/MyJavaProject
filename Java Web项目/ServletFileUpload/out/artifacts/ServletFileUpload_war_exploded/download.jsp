@@ -27,7 +27,7 @@
 <a href="download/test.txt" download>文本文件</a>
 <a href="download/郭怀江.png" download="郭怀江.png">图片文件</a>
 <hr>
-<form action="downloadServlet">
+<form action="/downloadServlet">
     文件名：<input type="text" name="fileName" placeholder="请输入要下载的文件名">
     <button>下载</button>
 </form>
