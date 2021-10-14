@@ -7,6 +7,11 @@
     <property name="jdbc.username" value="briup" />
     <property name="jdbc.password" value="root" />
 </properties>
+<!--    日志配置-->
+    <settings>
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
 <!--    全限定名->起别名为Student-->
 <typeAliases>
     <typeAlias alias="Student" type="com.ghj.entity.Student"/>
@@ -30,4 +35,5 @@
 <mappers>
     <mapper resource="com/ghj/dao/StudentMapper.xml"/>
 </mappers>
+
 </configuration>
