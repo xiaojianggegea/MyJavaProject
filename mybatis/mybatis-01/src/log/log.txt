@@ -1,0 +1,33 @@
+2021-10-13 20:19:55,803 DEBUG [main] (LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-10-13 20:19:55,803 DEBUG [main] (LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-10-13 20:19:55,867 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:19:55,867 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:19:55,867 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:19:55,867 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:19:55,923 DEBUG [main] (JdbcTransaction.java:136) - Opening JDBC Connection
+2021-10-13 20:19:56,579 DEBUG [main] (PooledDataSource.java:424) - Created connection 1800693087.
+2021-10-13 20:19:56,579 DEBUG [main] (JdbcTransaction.java:100) - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:19:56,587 DEBUG [main] (BaseJdbcLogger.java:143) - ==>  Preparing: SELECT * FROM STUDENTS 
+2021-10-13 20:19:56,675 DEBUG [main] (BaseJdbcLogger.java:143) - ==> Parameters: 
+2021-10-13 20:19:56,731 DEBUG [main] (BaseJdbcLogger.java:143) - <==      Total: 3
+2021-10-13 20:19:56,731 DEBUG [main] (JdbcTransaction.java:122) - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:19:56,731 DEBUG [main] (JdbcTransaction.java:90) - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:19:56,731 DEBUG [main] (PooledDataSource.java:381) - Returned connection 1800693087 to pool.
+2021-10-13 20:24:50,420 DEBUG [main] (StudentMapperTest.java:25) - 获取sqlSession对象
+2021-10-13 20:24:50,556 DEBUG [main] (LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-10-13 20:24:50,556 DEBUG [main] (LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2021-10-13 20:24:50,620 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:24:50,620 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:24:50,620 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:24:50,620 DEBUG [main] (PooledDataSource.java:353) - PooledDataSource forcefully closed/removed all connections.
+2021-10-13 20:24:50,668 DEBUG [main] (StudentMapperTest.java:29) - 查询全部信息方法执行......
+2021-10-13 20:24:50,668 DEBUG [main] (StudentMapperTest.java:30) - 获取到List集合
+2021-10-13 20:24:50,676 DEBUG [main] (JdbcTransaction.java:136) - Opening JDBC Connection
+2021-10-13 20:24:51,340 DEBUG [main] (PooledDataSource.java:424) - Created connection 1800693087.
+2021-10-13 20:24:51,340 DEBUG [main] (JdbcTransaction.java:100) - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:24:51,340 DEBUG [main] (BaseJdbcLogger.java:143) - ==>  Preparing: SELECT * FROM STUDENTS 
+2021-10-13 20:24:51,436 DEBUG [main] (BaseJdbcLogger.java:143) - ==> Parameters: 
+2021-10-13 20:24:51,484 DEBUG [main] (BaseJdbcLogger.java:143) - <==      Total: 3
+2021-10-13 20:24:51,484 DEBUG [main] (JdbcTransaction.java:122) - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:24:51,484 DEBUG [main] (JdbcTransaction.java:90) - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@6b54655f]
+2021-10-13 20:24:51,484 DEBUG [main] (PooledDataSource.java:381) - Returned connection 1800693087 to pool.
