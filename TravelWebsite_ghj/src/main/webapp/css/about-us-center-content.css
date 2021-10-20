@@ -1,0 +1,58 @@
+#center-box {
+  width: 1152px;
+  height: 500px;
+  margin: 0 auto; }
+
+#details-box {
+  height: 500px;
+  background-size: 100% 100%;
+  padding: 20px;
+  background: url(../images/banner.png);
+  box-sizing: border-box; }
+  #details-box h2 {
+    font-size: 38px;
+    font-weight: bold;
+    padding-left: 25px;
+    border-left: #20BD9A solid 10px; }
+  #details-box #img-box {
+    float: left;
+    margin-top: 20px;
+    width: 300px;
+    height: 288px;
+    background: url(../images/wuwei.jpg) no-repeat;
+    background-size: 100% 100%; }
+    #details-box #img-box img {
+      width: 300px;
+      height: 288px;
+      vertical-align: middle; }
+  #details-box p {
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 720px;
+    text-indent: 2em;
+    color: #000000; }
+
+.box-details {
+  height: 100px;
+  background: #008997;
+  padding-top: 20px; }
+  .box-details ul li {
+    float: left;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-right: #ffffff solid 3px; }
+    .box-details ul li:first-child {
+      padding-left: 0; }
+    .box-details ul li:last-child {
+      border-right: none; }
+  .box-details .box-copyrights {
+    float: left;
+    margin-top: 30px;
+    color: #ffffff; }
+  .box-details .center-box-details {
+    margin: 0 auto;
+    width: 1152px;
+    height: 100px; }

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Day2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            margin: 0 auto;
+            padding-top: 100px;
+            width: 500px;
+            height: 500px;
+            background-color: #ffffff;
+            box-sizing: border-box;
+        }
+
+        #title,
+        #title-pwd {
+            margin-left: 35px;
+            font-family: 微软雅黑;
+            font-size: 18px;
+            color: #636363;
+        }
+
+        #title-pwd {
+            margin-left: 54px;
+        }
+
+        #username,
+        #phoneNum,
+        #password {
+            padding: 11px 10px;
+            margin-left: 10px;
+            max-height: 40px;
+            background: #fff;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 300px;
+            color: #636363;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        #user-box,
+        #phone-box,
+        #pwd-box,
+        #verify-box {
+            margin-top: 10px;
+        }
+
+        #verify {
+            padding: 11px 10px;
+            margin-left: 10px;
+            max-height: 40px;
+            background: #fff;
+            border: 2px solid #bebebe;
+            border-radius: 4px;
+            font-size: 14px;
+            width: 150px;
+            color: #636363;
+            box-sizing: border-box;
+        }
+
+        #verify-butten {
+            width: 145px;
+            height: 40px;
+            color: #636363;
+            border-style: none;
+        }
+
+        #but-box {
+            margin-top: 10px;
+            margin-left: 80px;
+        }
+
+        #but-box #text {
+            font-family: 微软雅黑;
+            font-size: 14px;
+            color: #636363;
+        }
+        #zhuce-box #but-zhuce{
+            margin-top: 15px;
+            margin-left: 100px;
+            height: 50px;
+            background: #0055ff;
+            border: 1px solid #E0E0E0;
+            border-radius: 4px;
+            font-size: 24px;
+            width: 300px;
+            color: #ffffff;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<form action="/login" method="post">
+    <div id="box">
+        <div id="user-box">
+					<span id="title">
+						用户名
+					</span>
+            <input type="text" id="username" name="username" placeholder="请输入用户名" />
+        </div>
+        <div id="pwd-box">
+					<span id="title-pwd">
+						密码
+					</span>
+            </label><input type="password" name="password" id="password" placeholder="请输入登录密码" />
+        </div>
+        <div id="but-box">
+           <input type="checkbox" name="auto" id="but" value="auto"/>
+            <span id="text">
+						自动登录
+            </span>
+        </div>
+        <div id="zhuce-box">
+            <input type="submit" id="but-zhuce" value="登录" />
+        </div>
+    </div>
+</form>
+</body>
+</html>

@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3ae74f-01d9-4177-8b38-569977f77e0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Java Web项目/ServletFileUpload/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Web项目/ServletFileUpload/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/java/com/ghj/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/java/com/ghj/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/java/com/ghj/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/java/com/ghj/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/java/com/ghj/uitl/CookieUitl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/webapp/css/day2-01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AutoLogin/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Web项目/Web_JSP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Web项目/Web_JSP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Web项目/Web_JSP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java Web项目/Web_JSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Web项目/Web_JSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/mydb/dao/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,19 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+            <state relative-caret-position="133">
+              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -82,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="171">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -91,12 +96,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="247">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,17 +117,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/mydb/dao/StudentMapperTest.java">
+        <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="278">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="228">
               <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -175,11 +178,12 @@
         <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/resources/druid.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/mydb/dao/StudentMapperTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperTest.java" />
+        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java" />
       </list>
     </option>
   </component>
@@ -198,10 +202,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="110" />
-    <option name="y" value="-15" />
-    <option name="width" value="1750" />
-    <option name="height" value="1105" />
+    <option name="x" value="335" />
+    <option name="y" value="-10" />
+    <option name="width" value="1400" />
+    <option name="height" value="885" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -322,7 +327,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,7 +336,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java Web项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-01/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -341,16 +345,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj\dao" />
-      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj" />
-      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj\mydb\dao" />
-      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ghj" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj\dao" />
+      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj" />
+      <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\java\com\ghj\mydb\dao" />
       <recent name="D:\GitHub\MyJavaProject\mybatis\mybatis-01\src\main\resources" />
     </key>
   </component>
@@ -366,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentMapperTest.test1">
+  <component name="RunManager" selected="JUnit.StudentMapperTest.test1 (1)">
     <configuration name="StudentMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
@@ -382,17 +386,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperTest.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ghj.mydb.dao.*" />
+          <option name="PATTERN" value="com.ghj.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ghj.mydb.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.ghj.mydb.dao.StudentMapperTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ghj.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -448,11 +452,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentMapperTest.test1 (1)" />
         <item itemvalue="JUnit.StudentMapperTest.test1" />
         <item itemvalue="JUnit.StudentMapperTest.test2" />
         <item itemvalue="JUnit.StudentMapperTest.test3" />
         <item itemvalue="JUnit.StudentMapperTest" />
-        <item itemvalue="JUnit.StudentMapperTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -477,6 +481,8 @@
       <workItem from="1634122414400" duration="5516000" />
       <workItem from="1634172401387" duration="2569000" />
       <workItem from="1634180943735" duration="113000" />
+      <workItem from="1634605286532" duration="1460000" />
+      <workItem from="1634607676432" duration="3651000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1634025978667</created>
@@ -531,18 +537,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 19h 12m 26s.xml">
-      <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 19h 15m 05s.xml">
-      <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 19h 15m 49s.xml">
-      <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 19h 18m 02s.xml">
-      <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 19h 34m 08s.xml">
       <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -561,9 +555,21 @@
     <history-entry file="StudentMapperTest_test1 - 2021.10.13 at 20h 24m 52s.xml">
       <configuration name="StudentMapperTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentMapperTest_test1_(1) - 2021.10.19 at 12h 20m 30s.xml">
+      <configuration name="StudentMapperTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperTest_test1_(1) - 2021.10.19 at 12h 28m 12s.xml">
+      <configuration name="StudentMapperTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperTest_test1_(1) - 2021.10.19 at 12h 29m 21s.xml">
+      <configuration name="StudentMapperTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperTest_test1_(1) - 2021.10.19 at 12h 30m 30s.xml">
+      <configuration name="StudentMapperTest.test1 (1)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25755000" />
+    <option name="totallyTimeSpent" value="30866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,8 +582,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26948926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27755377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -586,7 +593,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.08198924" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932796" weight="0.5672043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932796" weight="0.36155915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,7 +605,6 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067204" side_tool="true" weight="0.4502688" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.3293011" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3293011" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -607,7 +613,8 @@
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.06922043" />
+      <window_info anchor="right" id="Database" order="8" weight="0.31048387" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,6 +679,10 @@
     <MESSAGE value="mybatis基础日志的配置" />
     <option name="LAST_COMMIT_MESSAGE" value="mybatis基础日志的配置" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b9a08d5b-50fc-4362-9330-6d48807553fe/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -692,13 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -713,22 +717,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        <state relative-caret-position="247">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/util/MybatisUtil.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -739,27 +751,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/mydb/dao/StudentMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/STUDENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

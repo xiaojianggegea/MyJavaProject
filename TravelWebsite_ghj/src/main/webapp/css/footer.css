@@ -1,0 +1,191 @@
+.footer1-box {
+	position: relative;
+	height: 220px;
+	background: #F7F7F7;
+}
+.footer1-box .center-box8>ul {
+	float: left;
+	margin-top: 40px;
+	width: 1152px;
+	height: 40px;
+}
+.footer1-box .center-box8>ul>li {
+	float: left;
+	margin-left: 80px;
+	padding-left: 22px;
+	padding-right: 100px;
+	height: 28px;
+}
+
+.footer1-box .center-box8>ul>li a {
+	font-family: PingFangSCRegular;
+	font-size: 18px;
+	color: #1C1F21;
+	text-align: center;
+	line-height: 28px;
+}
+
+.footer1-box .center-box8>ul>li:first-child {
+	padding-left: 0;
+}
+
+.footer1-box .center-box8>ul>li:last-child {
+	padding-right: 0;
+}
+
+.footer1-box .center-box8>ul>em {
+	float: left;
+	width: 10px;
+	height: 28px;
+	font-family: PingFangSCRegular;
+	font-size: 18px;
+	color: #1C1F21;
+	text-align: center;
+	line-height: 28px;
+}
+
+.footer1-box .center-box8 .close-service-box {
+	float: left;
+	margin-right: 30px;
+	margin-top: 40px;
+	width: 364px;
+	height: 76px;
+}
+
+.footer1-box .center-box8 .close-service-box:last-child {
+	margin-right: 0;
+}
+
+.footer1-box .center-box8 .close-service-box dl {
+	cursor: default;
+	position: relative;
+}
+
+.footer1-box .center-box8 .close-service-box dl::before {
+	content: '';
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-image: url(../images/icons.png);
+	left: 0;
+}
+
+.footer1-box .center-box8 .close-service-box dl.close-service-box-text1::before {
+	background-position: -150px -178px;
+}
+
+.footer1-box .center-box8 .close-service-box dl.close-service-box-text2::before {
+	background-position: -150px -104px;
+}
+
+.footer1-box .center-box8 .close-service-box dl.close-service-box-text3::before {
+	background-position: -150px -31px;
+}
+
+.footer1-box .center-box8 .close-service-box dl dt {
+	margin-left: 75px;
+	font-family: PingFangSC-Semibold;
+	font-size: 16px;
+	color: #1C1F21;
+	line-height: 24px;
+}
+
+.footer1-box .center-box8 .close-service-box dl dd {
+	margin-left: 75px;
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #1C1F21;
+	line-height: 22px;
+}
+
+.footer2-box {
+	height: 175px;
+	background: #1C1F21;
+}
+
+.footer2-box .center-box9 .footer2-header {
+	padding-top: 20px;
+}
+
+.footer2-box .center-box9 .footer2-header h2 {
+	float: left;
+	width: 200px;
+	left: 46px;
+	font-family: PingFangSCRegular;
+	font-size: 46px;
+	color: #FFFFFF;
+	line-height: 46px;
+	cursor: default;
+}
+
+.footer2-box .center-box9 .footer2-header .footer2-text {
+	float: left;
+	width: 532px;
+	height: 44px;
+	margin-top: 30px;
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+	cursor: default;
+}
+
+.footer2-box .center-box9 .footer2-links ul {
+	margin-top: 10px;
+}
+
+.footer2-box .center-box9 .footer2-links ul>li {
+	float: left;
+	left: 22px;
+	padding-right: 14px;
+	padding-left: 14px;
+	border-right: 1px solid #FFFFFF;
+}
+
+.footer2-box .center-box9 .footer2-links ul>li:first-child {
+	padding-left: 0;
+}
+
+.footer2-box .center-box9 .footer2-links ul>li:last-child {
+	padding-right: 0;
+	border-right: none;
+}
+
+.footer2-box .center-box9 .footer2-links ul>li a {
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+}
+
+.footer2-box .center-box9 .footer2-copyrights {
+	margin-top: 8px;
+	height: 22px;
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 22px;
+	cursor: default;
+}
+
+.backtotop {
+	position: fixed;
+	bottom: 80px;
+	right: 60px;
+	width: 60px;
+	height: 60px;
+	background: rgba(28, 31, 33, 0.50);
+	border-radius: 2px;
+	border-radius: 2px;
+	display: none;
+	text-align: center;
+	font-size: 8px;
+}
+
+.backtotop img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -16px;
+	margin-top: -10px;
+}

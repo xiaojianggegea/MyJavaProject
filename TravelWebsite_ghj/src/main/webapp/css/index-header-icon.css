@@ -1,0 +1,21 @@
+#login-header-icon{
+	float: right;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/login-icon-header.png);
+	border-radius: 15px;
+}
+#user-text{
+	float: right;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-family: PingFangSCRegular;
+	font-size: 14px;
+	color: #ff0000;
+	text-align: justify;
+}
+#user-text:hover{
+	color: orange;
+}

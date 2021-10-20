@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 760px;
+	background: #ADADAD;
+	background: url(../images/background.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.allBody {
+	padding: 10px;
+	width: 400px;
+	height: 350px;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	opacity: 0.8;
+}
+
+.item {
+	width: 350px;
+	height: 50px;
+}
+
+.item div {
+	width: 400px;
+	height: 50px;
+	display: inline-block;
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.content {
+	width: 100%;
+}
+
+.content #content-box {
+	position: relative;
+	height: 230px;
+	text-align: left;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+.content a {
+	color: darkgray;
+	text-decoration: none;
+	text-align: left;
+	font-size: 14px;
+	margin-left: 35px;
+	color: #353535;
+}
+.content a img{
+	vertical-align: middle;
+}
+#username,#password{
+	float: left;
+	margin-left: 45px;
+	width: 50%;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid #adadad;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+#password1{
+	float: left;
+	margin-left: 20px;
+	width: 50%;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid #adadad;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	outline: none;
+}
+.content input[type="submit"] {
+	margin-left: 40px;
+	width: 60%;
+	height: 40px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	border: 1px solid #ADADAD;
+	background: #55aaff;
+	cursor: pointer;
+	letter-spacing: 5px;
+	outline: none;
+}
+.content input[type="submit"]:hover{
+	box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.3);
+}
+.content a{
+	color: #000000;
+}
+p {
+	width: 150px;
+	height: 0px;
+	color: crimson;
+	margin-left: 70px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+}
+
+#erweima {
+	float: right;
+	margin-top: 235px;
+	margin-right: 10px;
+}
+
+#wangji {
+	float: right;
+	margin-right: 25px;
+	font-size: 13px;
+	margin-top: 5px;
+}
+#fuxuankuang{
+	margin-top: 20px;
+}
+#tishi_user,#tishi_pwd,#tishi_rpt{
+	position: absolute;
+	top:5px;
+	height: 20px;
+	margin-left: 20px;
+	display: inline;
+}
+#use2,#pwd2,#pwd3{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+}
+#use2-box,#pwd2-box,#pwd3-box{
+	position: relative;
+	width: 100%;
+	height: 40px;
+}
+

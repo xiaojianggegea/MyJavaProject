@@ -1,0 +1,151 @@
+
+.header-box {
+	min-width: 1152px;
+	height: 130px;
+}
+.center-box2,
+.center-box3,
+.center-box4,
+.center-box6,
+.center-box7,
+.center-box8,
+.center-box9 {
+	width: 1152px;
+	margin: 0 auto;
+}
+
+.center-box2 {
+	height: 40px;
+}
+
+.center-box3 {
+	height: 78px;
+	background-color: rgba(255,255,255,0.1);
+}
+
+.center-box4 {
+	height: 110px;
+}
+
+.center-box6 {
+	height: 586px;
+}
+
+.center-box7 {
+	height: 456px;
+}
+
+.center-box8 {
+	height: 220px;
+}
+
+.center-box9 {
+	height: 175px;
+}
+/* 主导航条 */
+
+.nav-box2 {
+	height: 40px;
+	background: #55aaff;
+}
+
+.nav-box2 .center-box2 ul>li {
+	float: left;
+	margin-right: 30px;
+}
+.nav-box2 .center-box2 ul>li a:hover {
+	color: orange;
+}
+.nav-box2 .center-box2 ul>li a {
+	font-family: PingFangSCRegular;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: justify;
+	line-height: 40px;
+}
+
+
+.nav-box2 .center-box2 .box1-find img {
+	float: left;
+	margin-left: 480px;
+	margin-top: 10px;
+}
+
+.nav-box2 .center-box2 .box1-line {
+	float: left;
+	margin-top: 10px;
+	width: 3px;
+	height: 18px;
+	background: #ffffff;
+}
+
+.nav-box2 .center-box2 .box1-icon img {
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.nav-box2 .center-box2 .box1-login-registered {
+	float: left;
+	margin-left: 16px;
+	margin-top: 10px;
+	width: 24px;
+	height: 18px;
+	font-family: PingFangSCRegular;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: justify;
+}
+.nav-box2 .center-box2 #getname-box a img{
+	float: left;
+	margin-top: 8px;
+}
+.nav-box2 .center-box2 #getname-box a{
+	float: right;
+	margin-right: 20px;
+	font-family: PingFangSCRegular;
+	font-size: 15px;
+	color: #FFFFFF;
+	text-align: justify;
+	line-height: 40px;
+}
+.nav-box3 {
+	height: 60px;
+}
+
+.nav-box3 .center-box3 .box3-logo {
+	float: left;
+	margin-top: 10px;
+	height: 36px;
+	font-family: 黑体;
+	font-size: 30px;
+	color: #55aaff;
+	text-align: justify;
+	line-height: 36px;
+}
+
+.nav-box3 .center-box3 input {
+	float: right;
+	margin-left: 20px;
+	margin-top: 12px;
+	width: 373px;
+	height: 30px;
+	opacity: 0.3;
+	border: 1px solid #55aaff;
+	border-radius: 4px 0 0 4px;
+	outline: none;
+}
+
+.nav-box3 .center-box3 .box3-find-button {
+	float: right;
+	margin-top: 12px;
+	width: 30px;
+	height: 30px;
+	background: #55aaff;
+	border: 1px solid #55aaff;
+	border-radius: 0 4px 4px 0;
+}
+
+.nav-box3 .center-box3 .box3-find-button img {
+	margin-left: 5px;
+	margin-top: 5px;
+}

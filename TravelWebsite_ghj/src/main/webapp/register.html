@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	</head>
+	<body>
+		<form action="uc" method="post">
+			<div id="login-box">
+				<div class="allBody">
+					<div class="item">
+						<div>用户注册</div>
+					</div>
+					<div class="content">
+						<div id="content-box">
+							<div id="use2-box">
+								<span id="use2">账号:</span>
+								<input type="text" name="username" id="username" placeholder="请输入账号" value=""
+									onblur="checkUser()" /></br>
+								<img id="tishi_user"/>
+							</div>
+							<div id="pwd2-box">
+								<span id="pwd2">密码:</span>
+								<input type="password" name="password" id="password" placeholder="请输入密码" value=""
+									onblur="checkPwd()" /></br>
+								<img id="tishi_pwd"/>
+							</div>
+							<div id="pwd3-box">
+								<span id="pwd3">确认密码:</span>
+								<input type="password" name="password1" id="password1" placeholder="请再次输入密码" value=""
+									onblur="checkRpt()" /></br>
+								<img id="tishi_rpt"/>
+							</div>
+							<input type="submit" value="注册" id="sub" onclick="checkAll()" /><br>
+							<input type="checkbox" checked="checked" id="fuxuankuang" /> 我已阅读并接受《中国旅游网服务协议》
+						</div>
+
+						<a href="index.jsp">
+							<img src="images/return.png">返回首页</a>
+						<a href="login.html">已有账号去登录</a>
+					</div>
+				</div>
+			</div>
+		</form>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

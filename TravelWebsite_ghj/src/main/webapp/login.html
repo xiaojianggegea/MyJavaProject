@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	</head>
+	<body>
+		<form action="/login" method="post">
+			<div id="login-box">
+				<div class="allBody">
+					<div class="item">
+						<div>请登录</div>
+					</div>
+					<div class="content">
+						<div id="content-box1">
+							<div id="use-box">
+								<span id="use">账号：</span>
+								<input type="text" name="username" id="username3" placeholder="请输入账号" onblur="checkUser()"/></br>
+								<img id="tishi_user"/>
+							</div>
+							<div id="pwd-box">
+								<span id="pwd">密码：</span>
+								<input type="password" name="password" id="password3" placeholder="请输入密码" onblur="checkPwd()"/></br>
+								<img id="tishi_pwd"/>
+							</div>
+							<a id="wangji">忘记密码？</a>
+							</br>
+							<input type="submit" value="登录" />
+						</div>
+						<a href="index.jsp">
+							<img src="images/return.png">返回首页</a>
+						<a href="register.html">注册账号</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</body>
+	<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+</html>
