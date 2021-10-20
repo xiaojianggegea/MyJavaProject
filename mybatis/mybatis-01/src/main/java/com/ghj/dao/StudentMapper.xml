@@ -10,7 +10,17 @@
     <select id="findStudentById" parameterType="int" resultType="Student">
         SELECT * FROM STUDENTS WHERE ID=#{Id}
     </select>
+<!--    插入一条数据-->
     <insert id="insertStudent" parameterType="Student">
+        INSERT INTO STUDENTS(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
+    </insert>
+<!--    通过索引使得主键递增-->
+<!--    可以通过字符串形式来调用映射SQl语句-->
+    <insert id="string-instertStudent" parameterType="Student">
+        <selectKey keyProperty="id" resultType="int"
+                   order="BEFORE">
+            SELECT MY_SEQ.nextval FROM DUAL
+        </selectKey>
         INSERT INTO STUDENTS(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
     </insert>
 </mapper>

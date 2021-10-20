@@ -47,6 +47,9 @@ public class Student {
         this.dob = dob;
     }
 
+    public Student(){
+
+    }
     public Student(int id, String name, String email, Date dob) {
         this.id = id;
         this.name = name;

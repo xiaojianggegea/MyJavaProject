@@ -52,6 +52,27 @@ public class StudentMapperTest {
         int n = studentDao.insertStudent(student);
         if (n>0){
             System.out.println("插入成功！");
+        }else{
+            System.out.println("插入失败！");
+        }
+//        提交事务
+        sqlSession.commit();
+        sqlSession.close();
+    }
+//    通过字符串的形式调用映射SQL语句(id实现了自动增长)
+    @Test
+    public void test4() {
+        //    第一步：获取sqlSession对象
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        Student student = new Student();
+        student.setName("jack");
+        student.setEmail("2314395848@qq.com");
+        student.setDob(new Date());
+        int n = sqlSession.insert("com.ghj.dao.StudentMapper.string-instertStudent",student);
+        if (n>0){
+            System.out.println("插入成功！");
+        }else{
+            System.out.println("插入失败！");
         }
 //        提交事务
         sqlSession.commit();
