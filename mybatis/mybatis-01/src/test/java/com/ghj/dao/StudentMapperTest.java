@@ -18,6 +18,8 @@ import java.util.List;
 
 public class StudentMapperTest {
     private static Logger logger = Logger.getLogger(StudentMapperTest.class);
+
+    //    查询全部信息测试
     @Test
     public void test1() {
         //    第一步：获取sqlSession对象
@@ -34,6 +36,8 @@ public class StudentMapperTest {
         }
         sqlSession.close();
     }
+
+    //    根据ID查询信息测试
     @Test
     public void test2() {
         //    第一步：获取sqlSession对象
@@ -43,23 +47,26 @@ public class StudentMapperTest {
         System.out.println(student);
         sqlSession.close();
     }
+
+    //    插入信息操作测试
     @Test
     public void test3() {
         //    第一步：获取sqlSession对象
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         StudentMapper studentDao = sqlSession.getMapper(StudentMapper.class);
-        Student student = new Student(3,"tom","sdfksdfsd",new Date());
+        Student student = new Student(3, "tom", "sdfksdfsd", new Date());
         int n = studentDao.insertStudent(student);
-        if (n>0){
+        if (n > 0) {
             System.out.println("插入成功！");
-        }else{
+        } else {
             System.out.println("插入失败！");
         }
 //        提交事务
         sqlSession.commit();
         sqlSession.close();
     }
-//    通过字符串的形式调用映射SQL语句(id实现了自动增长)
+
+    //    通过字符串的形式调用映射SQL语句(id实现了自动增长)
     @Test
     public void test4() {
         //    第一步：获取sqlSession对象
@@ -68,13 +75,34 @@ public class StudentMapperTest {
         student.setName("jack");
         student.setEmail("2314395848@qq.com");
         student.setDob(new Date());
-        int n = sqlSession.insert("com.ghj.dao.StudentMapper.string-instertStudent",student);
-        if (n>0){
+        int n = sqlSession.insert("com.ghj.dao.StudentMapper.string-instertStudent", student);
+        if (n > 0) {
             System.out.println("插入成功！");
-        }else{
+        } else {
             System.out.println("插入失败！");
         }
 //        提交事务
+        sqlSession.commit();
+        sqlSession.close();
+    }
+//      通过id修改信息
+    @Test
+    public void test5() {
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+        Student student = new Student();
+        student.setId(1);
+        student.setName("ghj");
+        student.setEmail("123456@qq.com");
+        student.setDob(new Date());
+//      通过字符串的形式调用映射SQL语句
+//      int n = sqlSession.update("com.ghj.dao.StudentMapper.updateStudent",student);
+        int n = studentMapper.updateStudent(student);
+        if (n > 0) {
+            System.out.println("修改成功！");
+        } else {
+            System.out.println("修改失败！");
+        }
         sqlSession.commit();
         sqlSession.close();
     }

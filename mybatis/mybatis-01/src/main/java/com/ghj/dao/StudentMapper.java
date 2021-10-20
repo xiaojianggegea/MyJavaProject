@@ -14,4 +14,5 @@ public interface StudentMapper {
     List<Student> findAllStudents();
     Student findStudentById(int id);
     int insertStudent(Student student);
+    int updateStudent(Student student);
 }
