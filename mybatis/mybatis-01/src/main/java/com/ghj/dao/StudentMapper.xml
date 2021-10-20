@@ -27,4 +27,12 @@
     <update id="updateStudent" parameterType="Student">
         UPDATE STUDENTS SET NAME=#{name},EMAIL=#{email},DOB=#{dob} WHERE ID=#{id}
     </update>
+<!--    查询一条数据放入map集合-->
+    <select id="findStudentOne" parameterType="int" resultType="map">
+        SELECT * FROM STUDENTS WHERE ID=#{id}
+    </select>
+<!--    查询多条数据放入map集合-->
+    <select id="findStudentMore" resultType="map">
+        SELECT ID,NAME,EMAIL,DOB FROM STUDENTS
+    </select>
 </mapper>

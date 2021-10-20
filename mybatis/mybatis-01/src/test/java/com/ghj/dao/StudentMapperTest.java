@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: mybatis
@@ -104,6 +105,28 @@ public class StudentMapperTest {
             System.out.println("修改失败！");
         }
         sqlSession.commit();
+        sqlSession.close();
+    }
+//    查出一条数据放入map集合
+    @Test
+    public void test6() {
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+        Student student = new Student();
+        student.setId(1);
+        Map<String,Object> map= studentMapper.findStudentOne(1);
+        map.forEach((k,v)-> System.out.println(k+"="+v));
+        sqlSession.close();
+    }
+//    查出多条数据放入map集合
+    @Test
+    public void test7() {
+        SqlSession sqlSession = MybatisUtil.getSqlSession();
+        StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
+        List<Map<String,Object>> list = studentMapper.findStudentMore();
+        list.forEach(map->{
+            map.forEach((k,v)-> System.out.println(k+"="+v));
+        });
         sqlSession.close();
     }
 

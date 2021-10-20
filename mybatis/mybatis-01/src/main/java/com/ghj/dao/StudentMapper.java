@@ -3,6 +3,7 @@ package com.ghj.dao;
 import com.ghj.entity.Student;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @program: mybatis
@@ -15,4 +16,6 @@ public interface StudentMapper {
     Student findStudentById(int id);
     int insertStudent(Student student);
     int updateStudent(Student student);
+    Map<String,Object> findStudentOne(int id);
+    List<Map<String,Object>> findStudentMore();
 }
