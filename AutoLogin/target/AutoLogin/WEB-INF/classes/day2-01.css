@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#box {
+	margin: 0 auto;
+	padding-top: 100px;
+	width: 500px;
+	height: 500px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+#title,
+#title-pwd {
+	margin-left: 35px;
+	font-family: 微软雅黑;
+	font-size: 18px;
+	color: #636363;
+}
+
+#title-pwd {
+	margin-left: 54px;
+}
+
+#username,
+#phoneNum,
+#password {
+	padding: 11px 10px;
+	margin-left: 10px;
+	max-height: 40px;
+	background: #fff;
+	border-radius: 4px;
+	font-size: 14px;
+	width: 300px;
+	color: #636363;
+	box-sizing: border-box;
+	outline: none;
+}
+
+#user-box,
+#phone-box,
+#pwd-box,
+#verify-box {
+	margin-top: 10px;
+}
+
+#verify {
+	padding: 11px 10px;
+	margin-left: 10px;
+	max-height: 40px;
+	background: #fff;
+	border: 2px solid #bebebe;
+	border-radius: 4px;
+	font-size: 14px;
+	width: 150px;
+	color: #636363;
+	box-sizing: border-box;
+}
+
+#verify-butten {
+	width: 145px;
+	height: 40px;
+	color: #636363;
+	border-style: none;
+}
+
+#but-box {
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+#but-box #text {
+	font-family: 微软雅黑;
+	font-size: 14px;
+	color: #636363;
+}
+#zhuce-box #but-zhuce{
+	margin-top: 15px;
+	margin-left: 100px;
+	height: 50px;
+	background: #0055ff;
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+	font-size: 24px;
+	width: 300px;
+	color: #ffffff;
+	box-sizing: border-box;
+}
