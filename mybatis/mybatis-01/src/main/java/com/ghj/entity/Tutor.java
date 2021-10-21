@@ -15,13 +15,13 @@ public class Tutor {
     private String email;
     private PhoneNumber phone;
     private Address address;
-    private List<Course> courses;
+    private List<Courses> courses;
 
     public Tutor(){
 
     }
 
-    public Tutor(Integer tutorId, String name, String email, PhoneNumber phone, Address address, List<Course> courses) {
+    public Tutor(Integer tutorId, String name, String email, PhoneNumber phone, Address address, List<Courses> courses) {
         this.tutorId = tutorId;
         this.name = name;
         this.email = email;
@@ -70,11 +70,11 @@ public class Tutor {
         this.address = address;
     }
 
-    public List<Course> getCourses() {
+    public List<Courses> getCourses() {
         return courses;
     }
 
-    public void setCourses(List<Course> courses) {
+    public void setCourses(List<Courses> courses) {
         this.courses = courses;
     }
 

@@ -1,79 +1,64 @@
 package com.ghj.entity;
 
-import java.util.Date;
+import java.util.List;
 
 /**
  * @program: mybatis
- * @description: 科目类
+ * @description: 课程类
  * @author: 小江
- * @create: 2021-10-21 16:55
+ * @create: 2021-10-21 19:34
  **/
 
 public class Course {
-    private Integer courseId;
-    private String name;
-    private String description;
-    private Date startDate;
-    private Date endDate;
+    private Integer id;
+    private String courseCode; // 课程编号
+    private String courseName;// 课程名称
+    private List<StudentManyToMany> students;// 选课学生
 
-    public Course(){
-
+    public Course(String courseCode, String courseName) {
+        this.courseCode = courseCode;
+        this.courseName = courseName;
     }
 
-    public Course(Integer courseId, String name, String description, Date startDate, Date endDate) {
-        this.courseId = courseId;
-        this.name = name;
-        this.description = description;
-        this.startDate = startDate;
-        this.endDate = endDate;
+    public Integer getId() {
+        return id;
     }
 
-    public Integer getCourseId() {
-        return courseId;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
-    public void setCourseId(Integer courseId) {
-        this.courseId = courseId;
+    public String getCourseCode() {
+        return courseCode;
     }
 
-    public String getName() {
-        return name;
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getCourseName() {
+        return courseName;
     }
 
-    public String getDescription() {
-        return description;
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public List<StudentManyToMany> getStudents() {
+        return students;
     }
 
-    public Date getStartDate() {
-        return startDate;
-    }
-
-    public void setStartDate(Date startDate) {
-        this.startDate = startDate;
-    }
-
-    public Date getEndDate() {
-        return endDate;
-    }
-
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
+    public void setStudents(List<StudentManyToMany> students) {
+        this.students = students;
     }
 
     @Override
     public String toString() {
-        return "学科ID：" + courseId +" "+
-                "科目名：" + name + " " +
-                "科目描述：" + description + " " +
-                "开始时间：" + startDate +" "+
-                "结束时间：" + endDate;
+        return "Course{" +
+                "id=" + id +
+                ", courseCode='" + courseCode + '\'' +
+                ", courseName='" + courseName + '\'' +
+                ", students=" + students +
+                '}';
     }
 }

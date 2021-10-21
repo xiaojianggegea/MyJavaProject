@@ -16,6 +16,7 @@ public class StudentOne {
     private Date dob;
 
     public StudentOne() {
+
     }
 
     public StudentOne(int id, String name, String email, Date dob) {

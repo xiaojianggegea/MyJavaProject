@@ -18,7 +18,10 @@
         <typeAlias alias="Address" type="com.ghj.entity.Address"/>
         <typeAlias alias="StudentOneToOne" type="com.ghj.entity.StudentOneToOne"/>
         <typeAlias type="com.ghj.entity.Tutor" alias="Tutor"/>
+        <typeAlias type="com.ghj.entity.Courses" alias="Courses"/>
         <typeAlias type="com.ghj.entity.Course" alias="Course"/>
+        <typeAlias type="com.ghj.entity.StudentManyToMany" alias="StudentManyToMany"/>
+
     </typeAliases>
     <typeHandlers>
         <typeHandler handler="com.ghj.typehandlers.PhoneTypeHandlers"/>
@@ -43,6 +46,7 @@
         <mapper resource="com/ghj/dao/StudentMapper.xml"/>
         <mapper resource="com/ghj/dao/StudentOneToOneMapper.xml"/>
         <mapper resource="com/ghj/dao/StudentOneToManyMapper.xml"/>
+        <mapper resource="com/ghj/dao/StudentManyToManyMapper.xml"/>
     </mappers>
 
 </configuration>

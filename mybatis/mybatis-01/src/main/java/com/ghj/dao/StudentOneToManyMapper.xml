@@ -13,7 +13,7 @@
          <result property="country" column="country"/>
      </resultMap>
      &lt;!&ndash; 独立的Course封装映射 &ndash;&gt;
-     <resultMap type="Course" id="CourseResult">
+     <resultMap type="Courses" id="CoursesResult">
          <id column="course_id" property="courseId"/>
          <result column="name" property="name"/>
          <result column="description" property="description"/>
@@ -28,7 +28,7 @@
          <result column="email" property="email"/>
          <result column="phone" property="phone"/>
          <association property="address" resultMap="AddressResult"/>
-         <collection property="courses" resultMap="CourseResult"/>
+         <collection property="courses" resultMap="CoursesResult"/>
      </resultMap>
      <select id="findTutorById" parameterType="int" resultMap="TutorResult">
          select t.TUTOR_ID,
@@ -63,7 +63,7 @@
     </resultMap>
 
     <!--    独立的Course封装映射-->
-    <resultMap type="Course" id="CourseResult">
+    <resultMap type="Courses" id="CoursesResult">
         <id column="course_id" property="courseId"/>
         <result column="name" property="name"/>
         <result column="description" property="description"/>
@@ -87,7 +87,7 @@
         where addr_id = #{addr_id}
     </select>
     <!--    独立的Course查询-->
-    <select id="findCoursesByTutor" parameterType="int" resultMap="CourseResult">
+    <select id="findCoursesByTutor" parameterType="int" resultMap="CoursesResult">
         select course_id, name, description, start_date, end_date
         from courses
         where tutor_id = #{tutor_id}
