@@ -1,6 +1,6 @@
 package com.ghj.dao;
 
-import com.ghj.entity.Student;
+import com.ghj.entity.StudentOne;
 import com.ghj.util.MybatisUtil;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.log4j.Logger;
@@ -30,8 +30,8 @@ public class StudentMapperTest {
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
         logger.debug("查询全部信息方法执行......");
         logger.debug("获取到List集合");
-        List<Student> stuList = studentMapper.findAllStudents();
-        for (Student stu : stuList) {
+        List<StudentOne> stuList = studentMapper.findAllStudents();
+        for (StudentOne stu : stuList) {
             logger.debug("查询成功！");
             System.out.println(stu);
         }
@@ -44,7 +44,7 @@ public class StudentMapperTest {
         //    第一步：获取sqlSession对象
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         StudentMapper studentDao = sqlSession.getMapper(StudentMapper.class);
-        Student student = studentDao.findStudentById(3);
+        StudentOne student = studentDao.findStudentById(3);
         System.out.println(student);
         sqlSession.close();
     }
@@ -55,7 +55,7 @@ public class StudentMapperTest {
         //    第一步：获取sqlSession对象
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         StudentMapper studentDao = sqlSession.getMapper(StudentMapper.class);
-        Student student = new Student(3, "tom", "sdfksdfsd", new Date());
+        StudentOne student = new StudentOne(3, "tom", "sdfksdfsd", new Date());
         int n = studentDao.insertStudent(student);
         if (n > 0) {
             System.out.println("插入成功！");
@@ -72,9 +72,9 @@ public class StudentMapperTest {
     public void test4() {
         //    第一步：获取sqlSession对象
         SqlSession sqlSession = MybatisUtil.getSqlSession();
-        Student student = new Student();
+        StudentOne student = new StudentOne();
         student.setName("jack");
-        student.setEmail("2314395848@qq.com");
+        student.setEmail("2314395857@qq.com");
         student.setDob(new Date());
         int n = sqlSession.insert("com.ghj.dao.StudentMapper.string-instertStudent", student);
         if (n > 0) {
@@ -91,7 +91,7 @@ public class StudentMapperTest {
     public void test5() {
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
-        Student student = new Student();
+        StudentOne student = new StudentOne();
         student.setId(1);
         student.setName("ghj");
         student.setEmail("123456@qq.com");
@@ -112,7 +112,7 @@ public class StudentMapperTest {
     public void test6() {
         SqlSession sqlSession = MybatisUtil.getSqlSession();
         StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
-        Student student = new Student();
+        StudentOne student = new StudentOne();
         student.setId(1);
         Map<String,Object> map= studentMapper.findStudentOne(1);
         map.forEach((k,v)-> System.out.println(k+"="+v));

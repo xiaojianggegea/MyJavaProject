@@ -9,16 +9,16 @@ import java.util.Date;
  * @create: 2021-10-12 16:12
  **/
 
-public class Student {
+public class StudentOne {
     private int id;
     private String name;
     private String email;
     private Date dob;
 
-    public Student() {
+    public StudentOne() {
     }
 
-    public Student(int id, String name, String email, Date dob) {
+    public StudentOne(int id, String name, String email, Date dob) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -56,5 +56,15 @@ public class Student {
 
     public void setDob(Date dob) {
         this.dob = dob;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", dob=" + dob +
+                '}';
     }
 }

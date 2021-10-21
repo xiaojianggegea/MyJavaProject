@@ -14,7 +14,7 @@
     </settings>
 <!--    全限定名->起别名为Student-->
 <typeAliases>
-    <typeAlias alias="Student" type="com.ghj.entity.Student"/>
+    <typeAlias alias="Student" type="com.ghj.entity.StudentOne"/>
 </typeAliases>
 
 <environments default="development">
