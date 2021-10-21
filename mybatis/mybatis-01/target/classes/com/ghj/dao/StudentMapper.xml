@@ -27,6 +27,9 @@
     <update id="updateStudent" parameterType="Student">
         UPDATE STUDENTSONE SET NAME=#{name},EMAIL=#{email},DOB=#{dob} WHERE ID=#{id}
     </update>
+    <delete id="deleteStudent" parameterType="int">
+        DELETE FROM STUDENTSONE WHERE ID=#{id}
+    </delete>
 <!--    查询一条数据放入map集合-->
     <select id="findStudentOne" parameterType="int" resultType="map">
         SELECT * FROM STUDENTSONE WHERE ID=#{id}

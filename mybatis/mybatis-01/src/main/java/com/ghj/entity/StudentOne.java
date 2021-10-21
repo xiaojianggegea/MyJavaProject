@@ -60,7 +60,7 @@ public class StudentOne {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentOneToOne{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

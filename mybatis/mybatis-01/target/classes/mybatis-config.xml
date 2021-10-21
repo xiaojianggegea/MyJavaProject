@@ -15,7 +15,12 @@
 <!--    全限定名->起别名为Student-->
 <typeAliases>
     <typeAlias alias="Student" type="com.ghj.entity.StudentOne"/>
+    <typeAlias alias="Address" type="com.ghj.entity.Address" />
+    <typeAlias alias="StudentOneToOne" type="com.ghj.entity.StudentOneToOne"/>
 </typeAliases>
+    <typeHandlers>
+        <typeHandler handler="com.ghj.typehandlers.PhoneTypeHandlers" />
+    </typeHandlers>
 
 <environments default="development">
     <!--        第一个Mybatis的工作环境，每一个环境都需要创建一个SqlSessionFactory对象-->
@@ -34,6 +39,7 @@
 <!--    Maven会出现资源过滤问题-->
 <mappers>
     <mapper resource="com/ghj/dao/StudentMapper.xml"/>
+    <mapper resource="com/ghj/dao/StudentOneToOneMapper.xml" />
 </mappers>
 
 </configuration>

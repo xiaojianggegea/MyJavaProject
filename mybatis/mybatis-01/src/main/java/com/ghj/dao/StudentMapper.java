@@ -12,14 +12,12 @@ import java.util.Map;
  * @create: 2021-10-12 16:42
  **/
 public interface StudentMapper {
-//
+//  StudentOne对象的操作
     List<StudentOne> findAllStudents();
     StudentOne findStudentById(int id);
     int insertStudent(StudentOne student);
     int updateStudent(StudentOne student);
+    int deleteStudent(int id);
     Map<String,Object> findStudentOne(int id);
     List<Map<String,Object>> findStudentMore();
-//    映射关系
-//    一对一
-
 }
