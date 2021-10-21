@@ -14,18 +14,17 @@ public class Student {
     private String name;
     private String email;
     private Date dob;
-    private Address address;
 
     public Student() {
     }
 
-    public Student(int id, String name, String email, Date dob, Address address) {
+    public Student(int id, String name, String email, Date dob) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.dob = dob;
-        this.address = address;
     }
+
 
     public int getId() {
         return id;
@@ -57,13 +56,5 @@ public class Student {
 
     public void setDob(Date dob) {
         this.dob = dob;
-    }
-
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
     }
 }

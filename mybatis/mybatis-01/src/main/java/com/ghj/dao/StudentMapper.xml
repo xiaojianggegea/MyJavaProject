@@ -21,6 +21,10 @@
                    order="BEFORE">
             SELECT MY_SEQ.nextval FROM DUAL
         </selectKey>
+        <selectKey keyProperty="addr_id" resultType="int"
+                   order="BEFORE">
+            SELECT MY_SEQ.nextval FROM DUAL
+        </selectKey>
         INSERT INTO STUDENTS(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
     </insert>
 <!--    修改信息（可以通过字符串的形式调用映射SQL）-->
