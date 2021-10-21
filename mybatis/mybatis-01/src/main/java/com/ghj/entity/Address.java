@@ -77,13 +77,11 @@ public class Address {
 
     @Override
     public String toString() {
-        return "Address{" +
-                "addrId=" + addrId +
-                ", street='" + street + '\'' +
-                ", city='" + city + '\'' +
-                ", state='" + state + '\'' +
-                ", zip='" + zip + '\'' +
-                ", country='" + country + '\'' +
-                '}';
+        return "地址ID：" + addrId + " " +
+                " 街道：" + street + " "+
+                "城市：" + city + " "+
+                "state：" + state + " " +
+                "zip：" + zip + " " +
+                "country：" + country;
     }
 }

@@ -67,4 +67,13 @@ public class Course {
     public void setEndDate(Date endDate) {
         this.endDate = endDate;
     }
+
+    @Override
+    public String toString() {
+        return "学科ID：" + courseId +" "+
+                "科目名：" + name + " " +
+                "科目描述：" + description + " " +
+                "开始时间：" + startDate +" "+
+                "结束时间：" + endDate;
+    }
 }

@@ -35,4 +35,9 @@ public class PhoneNumber {
         return countryCode + "-" + stateCode + "-" + number;
     }
 
+    @Override
+    public String toString() {
+        return
+                countryCode + "-"+ stateCode + "-" + number;
+    }
 }

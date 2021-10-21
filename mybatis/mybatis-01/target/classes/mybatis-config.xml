@@ -1,45 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-        <!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<properties resource="druid.properties">
-    <!-- 注意:是applications.properties文件中的值优先级高 -->
-    <property name="jdbc.username" value="briup" />
-    <property name="jdbc.password" value="root" />
-</properties>
-<!--    日志配置-->
+    <properties resource="druid.properties">
+        <!-- 注意:是applications.properties文件中的值优先级高 -->
+        <property name="jdbc.username" value="briup"/>
+        <property name="jdbc.password" value="root"/>
+    </properties>
+    <!--    日志配置-->
     <settings>
-<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
         <setting name="logImpl" value="LOG4J"/>
     </settings>
-<!--    全限定名->起别名为Student-->
-<typeAliases>
-    <typeAlias alias="Student" type="com.ghj.entity.StudentOne"/>
-    <typeAlias alias="Address" type="com.ghj.entity.Address" />
-    <typeAlias alias="StudentOneToOne" type="com.ghj.entity.StudentOneToOne"/>
-</typeAliases>
+    <!--    全限定名->起别名为Student-->
+    <typeAliases>
+        <typeAlias alias="Student" type="com.ghj.entity.StudentOne"/>
+        <typeAlias alias="Address" type="com.ghj.entity.Address"/>
+        <typeAlias alias="StudentOneToOne" type="com.ghj.entity.StudentOneToOne"/>
+        <typeAlias type="com.ghj.entity.Tutor" alias="Tutor"/>
+        <typeAlias type="com.ghj.entity.Course" alias="Course"/>
+    </typeAliases>
     <typeHandlers>
-        <typeHandler handler="com.ghj.typehandlers.PhoneTypeHandlers" />
+        <typeHandler handler="com.ghj.typehandlers.PhoneTypeHandlers"/>
     </typeHandlers>
 
-<environments default="development">
-    <!--        第一个Mybatis的工作环境，每一个环境都需要创建一个SqlSessionFactory对象-->
-    <environment id="development">
-        <transactionManager type="JDBC"/>
-        <dataSource type="POOLED">
-            <property name="driver" value="${jdbc.driverClassName}"/>
-            <property name="url" value="${jdbc.url}"/>
-            <property name="username" value="${jdbc.username}"/>
-            <property name="password" value="${jdbc.password}"/>
-        </dataSource>
-    </environment>
-<!--    这里可以配置第二个Mybatis的工作环境-->
-</environments>
-<!--    注册mybatis核心配置文件-->
-<!--    Maven会出现资源过滤问题-->
-<mappers>
-    <mapper resource="com/ghj/dao/StudentMapper.xml"/>
-    <mapper resource="com/ghj/dao/StudentOneToOneMapper.xml" />
-</mappers>
+    <environments default="development">
+        <!--        第一个Mybatis的工作环境，每一个环境都需要创建一个SqlSessionFactory对象-->
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driverClassName}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+        <!--    这里可以配置第二个Mybatis的工作环境-->
+    </environments>
+    <!--    注册mybatis核心配置文件-->
+    <!--    Maven会出现资源过滤问题-->
+    <mappers>
+        <mapper resource="com/ghj/dao/StudentMapper.xml"/>
+        <mapper resource="com/ghj/dao/StudentOneToOneMapper.xml"/>
+        <mapper resource="com/ghj/dao/StudentOneToManyMapper.xml"/>
+    </mappers>
 
 </configuration>

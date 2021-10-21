@@ -77,4 +77,14 @@ public class Tutor {
     public void setCourses(List<Course> courses) {
         this.courses = courses;
     }
+
+    @Override
+    public String toString() {
+        return "教师ID：" + tutorId +" "+
+                "教师姓名：" + name + " " +
+                "邮件：" + email + " " +
+                "电话号码：" + phone +" "+
+                "地址：" + address +" "+
+                "所教科目：" + courses;
+    }
 }

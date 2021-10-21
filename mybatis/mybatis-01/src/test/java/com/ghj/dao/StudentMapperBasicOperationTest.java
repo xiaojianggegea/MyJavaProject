@@ -17,8 +17,8 @@ import java.util.Map;
  * @create: 2021-10-12 17:01
  **/
 
-public class StudentOneToOneMapperTest {
-    private static Logger logger = Logger.getLogger(StudentOneToOneMapperTest.class);
+public class StudentMapperBasicOperationTest {
+    private static Logger logger = Logger.getLogger(StudentMapperBasicOperationTest.class);
 
     //    查询全部信息测试
     @Test

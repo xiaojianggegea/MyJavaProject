@@ -79,13 +79,11 @@ public class StudentOneToOne {
 
     @Override
     public String toString() {
-        return "StudentOneToOne{" +
-                "studId=" + studId +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", dob=" + dob +
-                ", phone=" + phone +
-                ", address=" + address +
-                '}';
+        return "学生ID：" + studId +" "+
+                "姓名：" + name + " " +
+                "邮件：" + email + " " +
+                "时间：" + dob +" "+
+                "电话号码：" + phone +" "+
+                "地址：" + address;
     }
 }

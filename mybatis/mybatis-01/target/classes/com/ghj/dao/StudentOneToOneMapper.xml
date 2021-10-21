@@ -38,7 +38,7 @@
                  left outer join addresses a on s.addr_id = a.addr_id
         where s.id = #{id}
     </select>-->
-    <!--    嵌套结果ResultMap-->
+    <!--    嵌套查询select-->
 <!--    独立的Address封装映射-->
     <resultMap type="Address" id="AddressResult">
         <id property="addrId" column="addr_id"/>

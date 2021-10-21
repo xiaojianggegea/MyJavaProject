@@ -60,11 +60,9 @@ public class StudentOne {
 
     @Override
     public String toString() {
-        return "StudentOneToOne{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", dob=" + dob +
-                '}';
+        return "id=" + id +" "+
+                "姓名：'" + name + " " +
+                "邮件：" + email + " " +
+                "时间：" + dob;
     }
 }

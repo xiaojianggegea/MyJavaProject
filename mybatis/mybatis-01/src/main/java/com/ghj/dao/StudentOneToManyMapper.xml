@@ -2,5 +2,100 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ghj.dao.StudentOneToManyMapper">
+    <!-- &lt;!&ndash;    嵌套结果Result&ndash;&gt;
+     &lt;!&ndash; 独立的Address封装映射 &ndash;&gt;
+     <resultMap type="Address" id="AddressResult">
+         <id property="addrId" column="addr_id"/>
+         <result property="street" column="street"/>
+         <result property="city" column="city"/>
+         <result property="state" column="state"/>
+         <result property="zip" column="zip"/>
+         <result property="country" column="country"/>
+     </resultMap>
+     &lt;!&ndash; 独立的Course封装映射 &ndash;&gt;
+     <resultMap type="Course" id="CourseResult">
+         <id column="course_id" property="courseId"/>
+         <result column="name" property="name"/>
+         <result column="description" property="description"/>
+         <result column="start_date" property="startDate"/>
+         <result column="end_date" property="endDate"/>
+     </resultMap>
+     &lt;!&ndash; Tutor封装映射，里面是有嵌套结果的方式关联一个Addres和多个Course，分别使用
+ association标签和collection标签 &ndash;&gt;
+     <resultMap type="Tutor" id="TutorResult">
+         <id column="tutor_id" property="tutorId"/>
+         <result column="name" property="name"/>
+         <result column="email" property="email"/>
+         <result column="phone" property="phone"/>
+         <association property="address" resultMap="AddressResult"/>
+         <collection property="courses" resultMap="CourseResult"/>
+     </resultMap>
+     <select id="findTutorById" parameterType="int" resultMap="TutorResult">
+         select t.TUTOR_ID,
+                t.NAME,
+                t.EMAIL,
+                t.PHONE,
+                c.COURSE_ID,
+                c.NAME,
+                c.DESCRIPTION,
+                c.START_DATE,
+                c.END_DATE,
+                a.ADDR_ID,
+                a.STREET,
+                a.CITY,
+                a.STATE,
+                a.ZIP,
+                a.COUNTRY
+         from TUTORS t
+                  left join ADDRESSES a on t.ADDR_ID = a.ADDR_ID
+                  left join COURSES c on t.TUTOR_ID = c.TUTOR_ID
+         where t.tutor_id = #{id}
+     </select>-->
+    <!--    嵌套查询-->
+    <!--     独立的Address封装映射-->
+    <resultMap type="Address" id="AddressResult">
+        <id property="addrId" column="addr_id"/>
+        <result property="street" column="street"/>
+        <result property="city" column="city"/>
+        <result property="state" column="state"/>
+        <result property="zip" column="zip"/>
+        <result property="country" column="country"/>
+    </resultMap>
 
+    <!--    独立的Course封装映射-->
+    <resultMap type="Course" id="CourseResult">
+        <id column="course_id" property="courseId"/>
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="start_date" property="startDate"/>
+        <result column="end_date" property="endDate"/>
+    </resultMap>
+
+    <!--   Tutor封装映射，里面是有嵌套结果的方式关联一个Addres和多个Course，分别使用 association标签和collection标签-->
+    <resultMap type="Tutor" id="TutorResult">
+        <id column="tutor_id" property="tutorId"/>
+        <result column="name" property="name"/>
+        <result column="email" property="email"/>
+        <result column="phone" property="phone"/>
+        <association property="address" column="addr_id" select="findAddressById"/>
+        <collection property="courses" column="tutor_id" select="findCoursesByTutor"/>
+    </resultMap>
+    <!--    独立的Address查询-->
+    <select id="findAddressById" parameterType="int" resultMap="AddressResult">
+        select addr_id, street, city, state, zip, country
+        from addresses
+        where addr_id = #{addr_id}
+    </select>
+    <!--    独立的Course查询-->
+    <select id="findCoursesByTutor" parameterType="int" resultMap="CourseResult">
+        select course_id, name, description, start_date, end_date
+        from courses
+        where tutor_id = #{tutor_id}
+    </select>
+    <!--    独立的Tutorchaxun-->
+    <select id="findTutorById" parameterType="int" resultMap="TutorResult">
+        select tutor_id, name, email, phone, addr_id
+        from tutors
+        where tutor_id = #{tutor_id}
+    </select>
 </mapper>
