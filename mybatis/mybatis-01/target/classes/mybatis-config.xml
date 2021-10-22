@@ -43,10 +43,10 @@
     <!--    注册mybatis核心配置文件-->
     <!--    Maven会出现资源过滤问题-->
     <mappers>
-        <mapper resource="com/ghj/dao/StudentMapper.xml"/>
-        <mapper resource="com/ghj/dao/StudentOneToOneMapper.xml"/>
-        <mapper resource="com/ghj/dao/StudentOneToManyMapper.xml"/>
-        <mapper resource="com/ghj/dao/StudentManyToManyMapper.xml"/>
+        <mapper resource="mappers/StudentMapper.xml"/>
+        <mapper resource="mappers/StudentOneToOneMapper.xml"/>
+        <mapper resource="mappers/StudentOneToManyMapper.xml"/>
+        <mapper resource="mappers/StudentManyToManyMapper.xml"/>
     </mappers>
 
 </configuration>
