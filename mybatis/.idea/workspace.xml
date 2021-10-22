@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3ae74f-01d9-4177-8b38-569977f77e0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentManyToMany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d0be9b7-24ba-4bb9-8558-a58358d8a164.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d0be9b7-24ba-4bb9-8558-a58358d8a164.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6d0be9b7-24ba-4bb9-8558-a58358d8a164/storage_v2/_src_/schema/BRIUP.VHLIAw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/6d0be9b7-24ba-4bb9-8558-a58358d8a164/storage_v2/_src_/schema/BRIUP.VHLIAw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Tutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Tutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperShineUponTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperShineUponTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/PhoneNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/PhoneNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/StudentOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/StudentOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/StudentOneToOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/ghj/entity/StudentOneToOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/mybatis-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,27 +51,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-684">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Courses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="228">
               <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
@@ -97,24 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-              <folding>
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,34 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentManyToMany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-691">
+            <state relative-caret-position="380">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#794#795#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#958#959#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1074#1075#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="513">
+              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,20 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperBasicOperationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="373">
+              <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -196,11 +107,41 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOneToOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1083">
+              <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperBasicOperationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="63" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperShineUponTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+            <state relative-caret-position="544">
+              <caret line="128" column="44" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,9 +202,9 @@
         <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentManyToMany.java" />
-        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.java" />
-        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml" />
         <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Course.java" />
+        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.java" />
         <option value="$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperShineUponTest.java" />
       </list>
     </option>
@@ -294,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -414,6 +354,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,24 +405,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentMapperShineUponTest.test04">
-    <configuration name="StudentMapperBasicOperationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ghj.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ghj.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperBasicOperationTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentMapperShineUponTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentMapperShineUponTest.test09">
+    <configuration name="StudentMapperShineUponTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
@@ -491,13 +416,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ghj.dao" />
       <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperShineUponTest" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperShineUponTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperShineUponTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
@@ -507,13 +432,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ghj.dao" />
       <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperShineUponTest" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="METHOD_NAME" value="test06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperShineUponTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperShineUponTest.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
@@ -523,13 +448,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ghj.dao" />
       <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperShineUponTest" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="METHOD_NAME" value="test07" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperShineUponTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentMapperShineUponTest.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis01" />
       <extension name="coverage">
         <pattern>
@@ -539,7 +464,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ghj.dao" />
       <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperShineUponTest" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="METHOD_NAME" value="test08" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperShineUponTest.test09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ghj.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ghj.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.ghj.dao.StudentMapperShineUponTest" />
+      <option name="METHOD_NAME" value="test09" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -547,11 +488,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentMapperShineUponTest.test04" />
-        <item itemvalue="JUnit.StudentMapperShineUponTest.test03" />
-        <item itemvalue="JUnit.StudentMapperShineUponTest.test02" />
-        <item itemvalue="JUnit.StudentMapperShineUponTest.test01" />
-        <item itemvalue="JUnit.StudentMapperBasicOperationTest.test1" />
+        <item itemvalue="JUnit.StudentMapperShineUponTest.test09" />
+        <item itemvalue="JUnit.StudentMapperShineUponTest.test08" />
+        <item itemvalue="JUnit.StudentMapperShineUponTest.test07" />
+        <item itemvalue="JUnit.StudentMapperShineUponTest.test06" />
+        <item itemvalue="JUnit.StudentMapperShineUponTest.test05" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +527,9 @@
       <workItem from="1634784383098" duration="2059000" />
       <workItem from="1634793632162" duration="14184000" />
       <workItem from="1634811660204" duration="1161000" />
-      <workItem from="1634812855123" duration="5984000" />
+      <workItem from="1634812855123" duration="6276000" />
+      <workItem from="1634863439006" duration="3572000" />
+      <workItem from="1634881334483" duration="3349000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1634025978667</created>
@@ -693,43 +636,50 @@
       <option name="project" value="LOCAL" />
       <updated>1634815040048</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="StudentManyToMany初步完成">
+      <created>1634819076758</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1634819076758</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 05m 04s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 13m 44s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 16m 51s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 20m 21s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 33m 49s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test02 - 2021.10.21 at 19h 36m 17s.xml">
-      <configuration name="StudentMapperShineUponTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test03 - 2021.10.21 at 20h 03m 44s.xml">
-      <configuration name="StudentMapperShineUponTest.test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StudentMapperShineUponTest_test03 - 2021.10.21 at 20h 07m 04s.xml">
-      <configuration name="StudentMapperShineUponTest.test03" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentMapperShineUponTest_test03 - 2021.10.21 at 20h 09m 01s.xml">
       <configuration name="StudentMapperShineUponTest.test03" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StudentMapperShineUponTest_test03 - 2021.10.21 at 20h 13m 26s.xml">
       <configuration name="StudentMapperShineUponTest.test03" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test04 - 2021.10.21 at 20h 21m 49s.xml">
+      <configuration name="StudentMapperShineUponTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test05 - 2021.10.22 at 08h 50m 31s.xml">
+      <configuration name="StudentMapperShineUponTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test05 - 2021.10.22 at 08h 51m 09s.xml">
+      <configuration name="StudentMapperShineUponTest.test05" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test06 - 2021.10.22 at 08h 58m 50s.xml">
+      <configuration name="StudentMapperShineUponTest.test06" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test07 - 2021.10.22 at 14h 38m 44s.xml">
+      <configuration name="StudentMapperShineUponTest.test07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test07 - 2021.10.22 at 14h 39m 38s.xml">
+      <configuration name="StudentMapperShineUponTest.test07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test07 - 2021.10.22 at 14h 41m 01s.xml">
+      <configuration name="StudentMapperShineUponTest.test07" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentMapperShineUponTest_test08 - 2021.10.22 at 14h 47m 06s.xml">
+      <configuration name="StudentMapperShineUponTest.test08" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65418000" />
+    <option name="totallyTimeSpent" value="72631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -744,7 +694,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31518817" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32459676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -753,7 +703,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48118278" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932796" weight="0.8346774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932796" weight="0.5107527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -844,7 +794,8 @@
     <MESSAGE value="StudentOne完成" />
     <MESSAGE value="StudentOneToOne完成" />
     <MESSAGE value="StudentOneToMany完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="StudentOneToMany完成" />
+    <MESSAGE value="StudentManyToMany初步完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="StudentManyToMany初步完成" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -915,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOneToOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Tutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -936,13 +880,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -993,6 +930,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/COURSE" />
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Courses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentManyToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1000,81 +973,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://6d0be9b7-24ba-4bb9-8558-a58358d8a164/schema/BRIUP/table/COURSE">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentOneToManyMapper.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Courses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="475">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperBasicOperationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="59" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="1045">
+          <caret line="63" column="9" selection-start-line="59" selection-start-column="8" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentManyToMany.java">
+    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/StudentOneToOne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-691">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1074#1075#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/resources/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        <state relative-caret-position="1083">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="513">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1083,40 +1009,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/dao/StudentManyToManyMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis-01/src/main/java/com/ghj/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
-          <folding>
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="373">
+          <caret line="58" column="49" lean-forward="true" selection-start-line="58" selection-start-column="49" selection-end-line="58" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis-01/src/test/java/com/ghj/dao/StudentMapperShineUponTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="67" column="16" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+        <state relative-caret-position="544">
+          <caret line="128" column="44" selection-start-line="128" selection-start-column="44" selection-end-line="128" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
