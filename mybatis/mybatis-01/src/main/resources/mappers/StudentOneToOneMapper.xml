@@ -52,7 +52,7 @@
     <select id="findAddressById" parameterType="int" resultMap="AddressResult">
         select * from ADDRESSES where ADDR_ID = #{id}
     </select>
-<!--        独立的Address封装映射-->
+<!--        独立的StudentOneToOne封装映射-->
     <resultMap type="StudentOneToOne" id="StudentWithAddressResult">
         <id property="studId" column="id"/>
         <result property="name" column="name"/>

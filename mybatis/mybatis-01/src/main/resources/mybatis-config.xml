@@ -47,6 +47,7 @@
         <mapper resource="mappers/StudentOneToOneMapper.xml"/>
         <mapper resource="mappers/StudentOneToManyMapper.xml"/>
         <mapper resource="mappers/StudentManyToManyMapper.xml"/>
+        <mapper resource="mappers/DynamicSQL_ifMapper.xml"/>
     </mappers>
 
 </configuration>

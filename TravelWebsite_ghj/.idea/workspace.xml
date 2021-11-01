@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dd8a93c-2d62-4f7b-b95b-47c9b832d46c" name="Default Changelist" comment="" />
+    <list default="true" id="0dd8a93c-2d62-4f7b-b95b-47c9b832d46c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mybatis/mybatis-01/src/main/java/com/ghj/dao/DynamicSQL_if.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis/mybatis-01/src/main/resources/mappers/DynamicSQL_ifMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AutoLogin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AutoLogin/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis-01/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis-01/src/main/resources/mybatis-config.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,6 +113,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,14 +143,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="F:/Java软件/mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -188,6 +194,7 @@
       <workItem from="1634693914039" duration="301000" />
       <workItem from="1634694462658" duration="234000" />
       <workItem from="1634694718003" duration="26000" />
+      <workItem from="1635154710466" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="主页登录注册第一次提交">
       <created>1634694692704</created>
@@ -200,12 +207,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2154000" />
+    <option name="totallyTimeSpent" value="2167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26008064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26344085" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
