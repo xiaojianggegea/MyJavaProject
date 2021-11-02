@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghj.dao.StudentMapper">
+<!--    查询全部信息-->
+    <select id="findAllStudents" resultType="Student">
+        SELECT * FROM STUDENTSONE
+    </select>
+<!--    指定ID查询-->
+    <select id="findStudentById" parameterType="int" resultType="Student">
+        SELECT * FROM STUDENTSONE WHERE ID=#{Id}
+    </select>
+<!--    插入一条数据-->
+    <insert id="insertStudent" parameterType="Student">
+        INSERT INTO STUDENTSONE(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
+    </insert>
+<!--    通过索引使得主键递增-->
+<!--    可以通过字符串形式来调用映射SQl语句-->
+    <insert id="string-instertStudent" parameterType="Student">
+        <selectKey keyProperty="id" resultType="int"
+                   order="BEFORE">
+            SELECT MY_SEQ.nextval FROM DUAL
+        </selectKey>
+        INSERT INTO STUDENTSONE(ID,NAME,EMAIL,DOB) VALUES(#{id},#{name},#{email},#{dob})
+    </insert>
+<!--    修改信息（可以通过字符串的形式调用映射SQL）-->
+    <update id="updateStudent" parameterType="Student">
+        UPDATE STUDENTSONE SET NAME=#{name},EMAIL=#{email},DOB=#{dob} WHERE ID=#{id}
+    </update>
+    <delete id="deleteStudent" parameterType="int">
+        DELETE FROM STUDENTSONE WHERE ID=#{id}
+    </delete>
+<!--    查询一条数据放入map集合-->
+    <select id="findStudentOne" parameterType="int" resultType="map">
+        SELECT * FROM STUDENTSONE WHERE ID=#{id}
+    </select>
+<!--    查询多条数据放入map集合-->
+    <select id="findStudentMore" resultType="map">
+        SELECT ID,NAME,EMAIL,DOB FROM STUDENTSONE
+    </select>
+</mapper>

@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="estore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33c7478e-a23b-4fdd-b30d-f908b3237d38" name="Default Changelist" comment="项目提交">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.apt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/OrderForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/ShopAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/bean/ShopCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/constants/EstoreConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/OrderFormMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/OrderLineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/dao/ShopAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/IBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/IOrderFormService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/IOrderLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/IShopAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/IShopCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/impl/OrderFormServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/service/impl/ShopAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/util/MyBatisSqlSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/filter/AutoLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/listener/ApplicationInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/listener/SessionInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/AddShopCarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/ChangeShopCarBookNumServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/CheckNameServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/ConfirmOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/DeleteOrderLineOfShopCarServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/DeleteOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/IndexServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/ShowOrderListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/ShowShopCarServet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/briup/web/servlet/ViewBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderFormMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderLineMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShopAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/shopCart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/viewBook.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/CodeGreen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/Don‘tMakeMeThink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/Java2入门经典.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/oneplant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/travelbook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/中国国家地理.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/中国自主游.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/别做傻瓜.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/培育男孩.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/大勇和小花.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/大勇和小花的欧洲日记.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/学会宽容.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/嵌入式Linux.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/平面.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/影响力.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/感悟.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/搭地铁玩上海.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/摄影教材.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/数据库原理.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/数据结构.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/时空穿行.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/杜拉拉.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/欧洲.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/沉思录.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/深入浅出Oracle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/系统分析.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/经典解析.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/网管员.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/计算机组成.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/设计模式解析.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/谁动了我的奶酪.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookcover/鱼的意大利旅行.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/apply.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/emptyCar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/fullCar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/orderSure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/orderdetail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/orderlist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/shopCar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/turn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/21_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/33_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/QRCodes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/ad1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg_login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/btn_submit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/buy_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/c4_b1_bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/empty_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/have_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/hot_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon_qq_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon_star_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/21_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/21_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/bgPic_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/cha_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_1_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/content_2_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_10_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_1_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_add_pro_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_del_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_li_1_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/icon_light_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/item1_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/jt_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/lolo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/lolo_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/orderList_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/ruby_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/service_09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/shopcar_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/shopcar_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/sj_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/sj_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/suo_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/suo_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icons/下拉箭头_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jiantou_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/jiantou_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/list_p1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/logon_register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/orderSure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/p021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/play_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/police.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/qrcode_jprj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/regist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_10 - 副本.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sureLogo_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/viewBook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/weixin_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/weixin_06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/animate-2.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/fetchComputedStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-1.12.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/turn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shopCart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewBook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briup/dao/BookMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briup/dao/CategoryMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briup/test/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/briup/util/MD5UtilTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShopAddressMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderLineMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderFormMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CustomerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/briup/web/servlet/AddShopCarServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-70" />
+    <option name="y" value="15" />
+    <option name="width" value="1750" />
+    <option name="height" value="1105" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="briup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="briup" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="briup" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="briup" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="briup" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="estore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="estore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.39" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.39" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="estore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/estore" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_estore_10" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3669" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="estore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c7478e-a23b-4fdd-b30d-f908b3237d38" name="Default Changelist" comment="" />
+      <created>1635765586818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635765586818</updated>
+      <workItem from="1635765589619" duration="516000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目提交">
+      <created>1635765698130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635765698131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="516000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5053619" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Word Book" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目提交" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/briup/web/servlet/AddShopCarServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShopAddressMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderLineMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderFormMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="50" column="14" lean-forward="true" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_74</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghj.dao.StudentManyToManyMapper">
+    <!--插入学生数据-->
+    <insert id="insertStudent" parameterType="StudentManyToMany">
+        <selectKey keyProperty="id" resultType="int" order="BEFORE">
+            select MY_SEQ.nextval from DUAL
+        </selectKey>
+        insert into STUDENT(id, name, gender, major, grade) VALUES
+        (#{id},#{name},#{gender},#{major},#{grade})
+    </insert>
+    <!--插入课程数据-->
+    <insert id="insertCourse" parameterType="Course">
+        <selectKey keyProperty="id" resultType="int" order="BEFORE">
+            select my_seq.nextval from dual
+        </selectKey>
+        insert into course(id,course_code,course_name) VALUES
+        (#{id},#{courseCode},#{courseName})
+    </insert>
+    <!--    通过id查询学生-->
+    <select id="getStudentById" parameterType="int" resultType="StudentManyToMany">
+        select *
+        from STUDENT
+        where ID = #{id}
+    </select>
+    <!--通过id查询课程信息-->
+    <select id="getCourseById" parameterType="int" resultType="Course">
+        select *
+        from COURSE
+        where ID = #{id}
+    </select>
+<!--    多对多学生对科目-->
+    <insert id="studentSelectCourse">
+        insert into
+            student_course(id,student_id,course_id)
+        values
+            (my_seq.nextval,#{param1.id},#{param2.id})
+    </insert>
+<!--    查询比指定ID值小的信息-->
+    <select id="getStudentByIdOnCondition" parameterType="int" resultType="StudentManyToMany">
+        select * from STUDENT where ID <![CDATA[<]]> #{id}
+    </select>
+<!--    查询student级联查询出所选的course并且组装成完整的对象-->
+    <resultMap id="CourseResult" type="Course">
+        <id property="id" column="cid" />
+        <result property="courseCode" column="course_code" />
+        <result property="courseName" column="course_name" />
+    </resultMap>
+    <resultMap id="StudentResultWithCourses" type="StudentManyToMany">
+        <id property="id" column="sid" />
+        <result property="name" column="name" />
+        <result property="gender" column="gender" />
+        <result property="major" column="major" />
+        <result property="grade" column="grade" />
+        <collection property="courses" resultMap="CourseResult"/>
+    </resultMap>
+    <select id="getStudentByIdWithCourses" parameterType="int"
+            resultMap="StudentResultWithCourses">
+        select
+            s.id as sid,s.name,s.gender,s.major,s.grade,
+            c.id as cid,c.course_code,c.course_name,
+            sc.id as scid,sc.student_id,sc.course_id
+        from
+            student s,
+            course c,
+            student_course sc
+        where
+            s.id= #{id}
+          and
+            s.id = sc.student_id
+          and
+            c.id = sc.course_id
+    </select>
+
+</mapper>

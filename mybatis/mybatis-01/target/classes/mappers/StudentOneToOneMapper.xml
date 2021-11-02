@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ghj.dao.StudentOneToOneMapper">
+<!--    &lt;!&ndash;    嵌套结果ResultMap&ndash;&gt;
+    &lt;!&ndash; 独立的Address封装映射 &ndash;&gt;
+    <resultMap type="Address" id="AddressResult">
+        <id property="addrId" column="addr_id"/>
+        <result property="street" column="street"/>
+        <result property="city" column="city"/>
+        <result property="state" column="state"/>
+        <result property="zip" column="zip"/>
+        <result property="country" column="country"/>
+    </resultMap>
+    &lt;!&ndash; Student封装映射，里面关联上Address的封装映射 &ndash;&gt;
+    <resultMap type="StudentOneToOne" id="StudentResult">
+        <id property="studId" column="id"/>
+        <result property="name" column="name"/>
+        <result property="email" column="email"/>
+        <result property="dob" column="dob"/>
+        <result property="phone" column="phone"/>
+        &lt;!&ndash;        关联AddressResult&ndash;&gt;
+        <association property="address" resultMap="AddressResult"/>
+    </resultMap>
+    <select id="selectStudentWithAddress" parameterType="int" resultMap="StudentResult">
+        select s.id,
+               s.name,
+               s.email,
+               s.dob,
+               s.phone,
+               a.addr_id,
+               a.street,
+               a.city,
+               a.state,
+               a.zip,
+               a.country
+        from students s
+                 left outer join addresses a on s.addr_id = a.addr_id
+        where s.id = #{id}
+    </select>-->
+    <!--    嵌套查询select-->
+<!--    独立的Address封装映射-->
+    <resultMap type="Address" id="AddressResult">
+        <id property="addrId" column="addr_id"/>
+        <result property="street" column="street"/>
+        <result property="city" column="city"/>
+        <result property="state" column="state"/>
+        <result property="zip" column="zip"/>
+        <result property="country" column="country"/>
+    </resultMap>
+<!--    独立的select查询，查询Address-->
+    <select id="findAddressById" parameterType="int" resultMap="AddressResult">
+        select * from ADDRESSES where ADDR_ID = #{id}
+    </select>
+<!--        独立的Address封装映射-->
+    <resultMap type="StudentOneToOne" id="StudentWithAddressResult">
+        <id property="studId" column="id"/>
+        <result property="name" column="name"/>
+        <result property="email" column="email"/>
+        <result property="dob" column="dob"/>
+        <result property="phone" column="phone"/>
+        <association property="address" column="addr_id" select="findAddressById"/>
+    </resultMap>
+    <select id="selectStudentWithAddress" parameterType="int" resultMap="StudentWithAddressResult">
+        select ID,NAME,EMAIL,DOB,PHONE,ADDR_ID from STUDENTS where ID = #{id}
+    </select>
+</mapper>
