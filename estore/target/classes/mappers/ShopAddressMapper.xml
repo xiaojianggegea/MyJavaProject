@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.briup.dao.ShopAddressMapper">
+	
+	<resultMap type="ShopAddress" id="ShopAddressResult">
+		<id property="id" column="id"/>
+		<result property="receiveName" column="receiveName"/>
+		<result property="address" column="address"/>
+		<result property="phone" column="phone"/>
+	</resultMap>
+	
+	<select id="findAddressByCustomerId" parameterType="int" resultMap="ShopAddressResult">
+		
+		select 
+			id,receiveName,address,phone
+		from 
+			es_shopaddress
+		where 
+			customer_id = #{id}
+		
+	</select>
+	
+	<select id="findShopAddressById" parameterType="int" resultMap="ShopAddressResult">
+		
+		select 
+			id,receiveName,address,phone
+		from 
+			es_shopaddress
+		where 
+			id = #{id}
+		
+	</select>
+	
+	<insert id="saveAddress" parameterType="ShopAddress" useGeneratedKeys="true" keyProperty="id">
+		insert into es_shopaddress(receiveName,address,phone,customer_id)
+		values(#{receiveName},#{address},#{phone},#{customer.id})
+	</insert>
+	
+	
+</mapper>
