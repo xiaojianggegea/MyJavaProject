@@ -3,31 +3,31 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.briup.dao.CategoryMapper">
 	<!-- 嵌套查询 -->
-	<!--  
+	<!--
 	<resultMap type="Category" id="CategoryResult">
 		<id property="id" column="id"/>
 		<result property="name" column="name"/>
 		<result property="description" column="description"/>
 	</resultMap>
-	
+
 	<resultMap extends="CategoryResult" type="Category" id="CategoryWithSubResult">
 		<collection property="categories" column="id" select="findCategoryByParentId"></collection>
 	</resultMap>
-	
+
 	<select id="findAllCategorys" resultMap="CategoryWithSubResult">
 		select id,name,description,parent_id
 		from es_category
 		where parent_id = 0
-	</select>	
-	
+	</select>
+
 	<select id="findCategoryByParentId" parameterType="int" resultMap="CategoryResult">
 		select id,name,description
 		from es_category
 		where parent_id = #{parentId}
 	</select>
 	-->
-	
-	
+
+
 	<!-- 嵌套结果 -->
 	<resultMap type="Category" id="CategoryWithSubResult">
 		<id property="id" column="id"/>
@@ -35,26 +35,26 @@
 		<result property="description" column="description"/>
 		<collection property="categories" resultMap="CategoryResult"></collection>
 	</resultMap>
-	
+
 	<resultMap type="Category" id="CategoryResult">
 		<id property="id" column="sub_id"/>
 		<result property="name" column="sub_name"/>
 		<result property="description" column="sub_description"/>
 	</resultMap>
-	
+
 	<select id="findAllCategorys" resultMap="CategoryWithSubResult">
-		select 
+		select
 			t1.id,t1.name,t1.description,
 			t2.id sub_id,t2.name sub_name,t2.description sub_description
-		from 
+		from
 			es_category t1,es_category t2
-		where 
+		where
 			t1.parent_id = 0
-			and
+		  and
 			t1.id = t2.parent_id
-	</select>	
-	
-	
-	
-	
+	</select>
+
+
+
+
 </mapper>

@@ -31,7 +31,6 @@ public class ApplicationInit implements ServletContextListener{
 		application.setAttribute("categorys", categorys);
 		
 		List<Book> books = bookService.findAllBooks();
-		
 		application.setAttribute("books", books);
 		
 		final Map<Integer,Book> map = new HashMap<>();
